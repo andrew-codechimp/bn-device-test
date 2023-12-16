@@ -234,6 +234,11 @@
             "battery_quantity": 2
         },
         {
+            "manufacturer": "TestCo",
+            "model": "ABC",
+            "battery_type": "PP3"
+        },
+        {
             "manufacturer": "TuYa",
             "model": "Soil sensor (TS0601_soil)",
             "battery_type": "AA",
