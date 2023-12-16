@@ -353,6 +353,11 @@
             "manufacturer": "eWeLink",
             "model": "MS01",
             "battery_type": "CR2450"
+        },
+        {
+            "manufacturer": "test",
+            "model": "aa",
+            "battery_type": "aa"
         }
     ]
 }
