@@ -8,6 +8,11 @@
             "battery_type": "CR2450"
         },
         {
+            "manufacturer": "ChimCo",
+            "model": "EX10",
+            "battery_type": "PP4"
+        },
+        {
             "manufacturer": "ChimpCo",
             "model": "EX04",
             "battery_type": "CR2023"
