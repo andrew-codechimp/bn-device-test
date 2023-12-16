@@ -70,7 +70,7 @@ jobs:
             set_output("model", "_".join(re.findall(r"\w+",f"{new_device['model']})")))
 
             with open("custom_components/battery_notes/data/library.json", "w") as f:
-              f.write(json.dumps(devices_json, indent=2))
+              f.write(json.dumps(devices_json, indent=4))
 
       - name: Rename Issue
         run: |
