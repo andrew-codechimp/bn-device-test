@@ -13,6 +13,12 @@
             "battery_type": "PP4"
         },
         {
+            "manufacturer": "Chimp Ltd",
+            "model": "Andrew",
+            "battery_type": "Cake",
+            "battery_quantity": 2
+        },
+        {
             "manufacturer": "ChimpCo",
             "model": "EX04",
             "battery_type": "CR2023"
