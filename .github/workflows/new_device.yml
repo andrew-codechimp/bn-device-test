@@ -46,7 +46,7 @@ jobs:
             numeric_quantity = int(new_device["battery_quantity"]) 
             del new_device["battery_quantity"]
             # Add  numeric "battery_quantity" key if it's more than 1
-            if int(new_device["battery_quantity"]) > 1:
+            if numeric_quantity > 1:
               new_device["battery_quantity"] = numeric_quantity
 
             # Check for duplicates and replace old entry with new one
