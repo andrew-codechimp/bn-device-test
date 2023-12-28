@@ -1,50 +1,88 @@
 name: New Device
-description: Submit a new device to the library so that others don't have to configure it themselves.
-title: "[Device]: "
-labels: ["new-device"]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        The battery library is a JSON document at [custom_components/battery_notes/data/library.json](https://github.com/andrew-codechimp/HA-Battery-Notes/blob/main/custom_components/battery_notes/data/library.json)
-        To contribute, submit your device details via this form and the relevant code changes will be proposed on your behalf.
-        Note: The manufacturer and model should be exactly what is displayed on the Device screen within Home Assistant.
-        To see your devices, click here:
 
-        [![Open your Home Assistant instance and show your devices.](https://my.home-assistant.io/badges/devices.svg)](https://my.home-assistant.io/redirect/devices/)
+on:
+  issues:
+    types: [opened, edited]
 
-  - type: input
-    id: manufacturer
-    attributes:
-      label: Manufacturer
-      description: The manufacturer should be exactly what is displayed on the Devices screen within Home Assistant.
-      placeholder: ex. eWeLink
-    validations:
-      required: true
+jobs:
+  create-device-pull-request:
+    if: ${{ contains(github.event.issue.labels.*.name, 'new-device') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-  - type: input
-    id: model
-    attributes:
-      label: Model
-      description: The model should be exactly what is displayed on the Devices screen within Home Assistant.
-      placeholder: ex. DS01
-    validations:
-      required: true
+      - name: Parse device data
+        id: device-data
+        uses: issue-ops/parser@v0
+        with:
+          body: ${{ github.event.issue.body }}
+          issue-form-template: new_device_request.yml
 
-  - type: input
-    id: battery-type
-    attributes:
-      label: Battery Type
-      description: When specifying battery types please use the Most Common naming for general batteries and the IEC naming for battery cells according to [Wikipedia](https://en.wikipedia.org/wiki/List_of_battery_sizes).
-      placeholder: ex. CR2032
-    validations:
-      required: true
+      - name: Install jq
+        run: sudo apt install jq
 
-  - type: input
-    id: battery-quantity
-    attributes:
-      label: Battery Quantity
-      description: The battery_quantity attribute is numeric (no letters or special characters).
-      placeholder: ex. 1
-    validations:
-      required: true
+      - name: Set up python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Update JSON file
+        id: update-json
+        uses: jannekem/run-python-script-action@v1
+        with:
+          script: |
+            import re
+            import json
+
+            # Load the existing JSON library file
+            with open("custom_components/battery_notes/data/library.json", "r", encoding="UTF-8") as f:
+              devices_json = json.loads(f.read())
+              devices = devices_json.get('devices')
+
+            # Remove the "battery_quantity" key from the device dictionary if it's 1
+            new_device = ${{ steps.device-data.outputs.json }}
+            # Convert battery_quantity field to a numeric
+            numeric_quantity = int(new_device["battery_quantity"]) 
+            del new_device["battery_quantity"]
+            # Add  numeric "battery_quantity" key if it's more than 1
+            if numeric_quantity > 1:
+              new_device["battery_quantity"] = numeric_quantity
+
+            # Check for duplicates and replace old entry with new one
+            duplicate_found = False
+            for i, device in enumerate(devices):
+              if device["manufacturer"] == new_device["manufacturer"] and device["model"] == new_device["model"]:
+                devices[i] = new_device
+                duplicate_found = True
+                break
+
+            # If no duplicate found, add the new device to the JSON library file
+            if not duplicate_found:
+              devices.append(new_device)
+
+            # Save manufacturer and model for later use
+            set_output("mm", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']}{new_device['model']})".lower())))
+            set_output("manufacturer", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']})")))
+            set_output("model", "_".join(re.findall(r"\w+",f"{new_device['model']})")))
+
+            with open("custom_components/battery_notes/data/library.json", "w", encoding="UTF-8") as f:
+              f.write(json.dumps(devices_json, indent=4))
+
+      - name: Rename Issue
+        run: |
+          curl --request PATCH \
+            --url https://api.github.com/repos/${{github.repository}}/issues/${{github.event.issue.number}} \
+            --header 'Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+            --header 'Content-Type: application/json' \
+            --data '{
+              "title": "Device: ${{ steps.update-json.outputs.mm }}"
+            }'
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: "Update device: ${{ steps.update-json.outputs.model }} by ${{ steps.update-json.outputs.manufacturer }}"
+          title: "DEVICE: ${{ steps.update-json.outputs.manufacturer }} - ${{ steps.update-json.outputs.model }}"
+          body: "This pull request adds or updates the device information for ${{ steps.update-json.outputs.model }} by ${{ steps.update-json.outputs.manufacturer }}\nIt closes issue #${{ github.event.issue.number }}"
+          branch: "device-${{ steps.update-json.outputs.mm }}"

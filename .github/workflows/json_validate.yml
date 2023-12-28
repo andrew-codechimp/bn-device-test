@@ -4,18 +4,18 @@ on:
   workflow_dispatch:
   push:
     paths:
-    - 'custom_components/battery_notes/data/**'
-    - '.github/workflows/**'
+      - 'custom_components/battery_notes/data/**.json'
+      - '.github/workflows/json_validate.yml'
   pull_request:
     paths:
-    - 'custom_components/battery_notes/data/**'
-    - '.github/workflows/**'
+      - 'custom_components/battery_notes/data/**.json'
+      - '.github/workflows/json_validate.yml'
 
 jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v4
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
