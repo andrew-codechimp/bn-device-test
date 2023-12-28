@@ -61,9 +61,6 @@ jobs:
             if not duplicate_found:
               devices.append(new_device)
 
-            # Sort the devices by manufacturer and model
-            # devices.sort(key=lambda k: (k['manufacturer'], k['model']))
-
             # Save manufacturer and model for later use
             set_output("mm", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']}{new_device['model']})".lower())))
             set_output("manufacturer", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']})")))
