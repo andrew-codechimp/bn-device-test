@@ -65,6 +65,11 @@
             "battery_quantity": 2
         },
         {
+            "manufacturer": "Andrew",
+            "model": "ABC4",
+            "battery_type": "PP3",
+        },
+        {
             "manufacturer": "AEON Labs",
             "model": "ZW112",
             "battery_type": "Rechargeable"
