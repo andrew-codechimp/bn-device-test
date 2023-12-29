@@ -21,5 +21,5 @@ jobs:
         env:
           schema: ./schema.json
           jsons: |
-            custom_components/battery_notes/data/library.json
+            ./custom_components/battery_notes/data/library.json
           separator: '\n'
