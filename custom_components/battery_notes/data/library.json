@@ -1658,6 +1658,11 @@
             "manufacturer": "Zooz",
             "model": "ZSE42",
             "battery_type": "CR2032"
+        },
+        {
+            "manufacturer": "Validation Inc",
+            "model": "JSONVAL",
+            "battery_type": "PP3"
         }
     ]
 }
