@@ -146,6 +146,12 @@
             "battery_quantity": 2
         },
         {
+            "manufacturer": "ChimpCo",
+            "model": "ABC1",
+            "battery_type": "PP3",
+            "battery_quantity": 2
+        },
+        {
             "manufacturer": "Custom devices (DiY)",
             "model": "Xiaomi temperature & humidity sensor with custom firmware (LYWSD03MMC)",
             "battery_type": "CR2032"
@@ -1642,12 +1648,6 @@
             "manufacturer": "Zooz",
             "model": "ZSE42",
             "battery_type": "CR2032"
-        },
-        {
-            "manufacturer": "ChimpCo",
-            "model": "ABC1",
-            "battery_type": "PP3",
-            "battery_quantity": 2
         }
     ]
 }
