@@ -1658,6 +1658,12 @@
             "manufacturer": "Zooz",
             "model": "ZSE42",
             "battery_type": "CR2032"
+        },
+        {
+            "manufacturer": "ChimpCo",
+            "model": "ABC5",
+            "battery_type": "AA",
+            "battery_quantity": 2
         }
     ]
 }
