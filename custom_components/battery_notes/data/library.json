@@ -152,6 +152,11 @@
             "battery_quantity": 2
         },
         {
+            "manufacturer": "ChimpCo",
+            "model": "Switch 01",
+            "battery_type": "CR22"
+        },
+        {
             "manufacturer": "Custom devices (DiY)",
             "model": "Xiaomi temperature & humidity sensor with custom firmware (LYWSD03MMC)",
             "battery_type": "CR2032"
@@ -1648,11 +1653,6 @@
             "manufacturer": "Zooz",
             "model": "ZSE42",
             "battery_type": "CR2032"
-        },
-        {
-            "manufacturer": "ChimpCo",
-            "model": "Switch 01",
-            "battery_type": "CR22"
         }
     ]
 }
