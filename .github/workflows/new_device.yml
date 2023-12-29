@@ -94,7 +94,7 @@ jobs:
           branch: "device-${{ steps.update-json.outputs.mm }}"
 
       - name: Close Issue
-        run: gh issue close --comment "Thanks for the contribution.\nAuto-closing issue, pull request created that will be reviewed and merged." ${{github.event.issue.number}}
+        run: gh issue close --comment "Thanks for the contribution. Auto-closing issue, pull request created that will be reviewed and merged." ${{github.event.issue.number}}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
           
