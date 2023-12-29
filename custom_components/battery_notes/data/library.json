@@ -152,6 +152,12 @@
         },
         {
             "manufacturer": "ChimpCo",
+            "model": "ABC 5",
+            "battery_type": "PP3",
+            "battery_quantity": 3
+        },
+        {
+            "manufacturer": "ChimpCo",
             "model": "ABC1",
             "battery_type": "PP3",
             "battery_quantity": 2
@@ -1658,12 +1664,6 @@
             "manufacturer": "Zooz",
             "model": "ZSE42",
             "battery_type": "CR2032"
-        },
-        {
-            "manufacturer": "ChimpCo",
-            "model": "ABC 5",
-            "battery_type": "PP3",
-            "battery_quantity": 3
         }
     ]
 }
