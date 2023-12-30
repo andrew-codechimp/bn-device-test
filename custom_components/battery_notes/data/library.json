@@ -108,6 +108,11 @@
         },
         {
             "manufacturer": "Andrew",
+            "model": "ABC1",
+            "battery_type": "PP3"
+        },
+        {
+            "manufacturer": "Andrew",
             "model": "ABC3",
             "battery_type": "PP3"
         },
@@ -1680,11 +1685,6 @@
             "manufacturer": "Zooz",
             "model": "ZSE42",
             "battery_type": "CR2032"
-        },
-        {
-            "manufacturer": "Andrew",
-            "model": "ABC1",
-            "battery_type": "PP3"
         }
     ]
 }
