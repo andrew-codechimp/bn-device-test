@@ -35,8 +35,8 @@ def generate_device_list():
         else:
             battery_type_qty = device["battery_type"]
         row = [
-            f"<span>{device['manufacturer']}<span>",
-            f"<span>{device['model']}<span>",
+            device['manufacturer'],
+            device['model'],
             battery_type_qty,
         ]
         rows.append(row)
