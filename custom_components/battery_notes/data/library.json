@@ -1685,6 +1685,11 @@
             "manufacturer": "Zooz",
             "model": "ZSE42",
             "battery_type": "CR2032"
+        },
+        {
+            "manufacturer": "Darryl's Devices",
+            "model": "Test-rig!",
+            "battery_type": "CR2032"
         }
     ]
 }
