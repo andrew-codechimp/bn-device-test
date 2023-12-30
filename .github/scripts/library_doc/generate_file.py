@@ -30,7 +30,7 @@ def generate_device_list():
     writer.header_list = headers
 
     for device in devices:
-        if device.get["battery_quantity", 1] > 1:
+        if device.get("battery_quantity", 1) > 1:
             battery_type_qty = f"{device['battery_type']}x {device['battery_type']}"
         else:
             battery_type_qty = device["battery_type"]
