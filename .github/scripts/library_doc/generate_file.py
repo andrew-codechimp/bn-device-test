@@ -22,9 +22,9 @@ def generate_device_list():
 
     writer = MarkdownTableWriter()
     headers = [
-        "manufacturer",
-        "model",
-        "battery type",
+        "Manufacturer",
+        "Model",
+        "Battery Type",
     ]
 
     writer.header_list = headers
@@ -35,8 +35,8 @@ def generate_device_list():
         else:
             battery_type_qty = device["battery_type"]
         row = [
-            device["manufacturer"],
-            device["model"],
+            f"<span>{device['manufacturer']}<span>",
+            f"<span>{device['model']}<span>",
             battery_type_qty,
         ]
         rows.append(row)

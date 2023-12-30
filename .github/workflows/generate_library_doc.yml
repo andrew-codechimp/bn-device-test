@@ -29,7 +29,7 @@ jobs:
       - name: Generate file
         run: |
           python3 ${{ github.workspace }}/.github/scripts/library_doc/generate_file.py
-      - uses: EndBug/add-and-commit@v7
+      - uses: EndBug/add-and-commit@v9
         with:
           add: 'library.md'
           message: 'Update library doc'
