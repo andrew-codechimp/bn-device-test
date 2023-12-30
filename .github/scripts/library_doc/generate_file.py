@@ -1,6 +1,7 @@
+"""Battery library document generator."""
+
 from __future__ import annotations
 
-import glob
 import json
 import os
 import sys
@@ -41,7 +42,7 @@ def generate_device_list():
 
     for device in devices:
         if device.get["battery_quantity", 1] > 1:
-            battery_type_qty = f"device[""battery_type""]x device[""battery_type""]"
+            battery_type_qty = f"{device['battery_type']}x {device['battery_type']}"
         else:
             battery_type_qty = device["battery_type"]
         row = [
@@ -55,11 +56,8 @@ def generate_device_list():
     tables_output += f"\n##{num_devices} Devices in library\n####\n\n"
     tables_output += writer.dumps()
 
-    md_file = open(os.path.join(PROJECT_ROOT, "library.md"), "w")
-    md_file.write("".join(toc_links) + tables_output)
-    md_file.close()
-
-    print("Generated library.md")
-
+    with open(os.path.join(PROJECT_ROOT, "library.md"), "w", encoding="utf8") as md_file:
+        md_file.write("".join(toc_links) + tables_output)
+        md_file.close()
 
 generate_device_list()
