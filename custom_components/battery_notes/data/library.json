@@ -175,6 +175,11 @@
         },
         {
             "manufacturer": "ChimpCo",
+            "model": "Button 01",
+            "battery_type": "CR22"
+        },        
+        {
+            "manufacturer": "ChimpCo",
             "model": "Switch 01",
             "battery_type": "CR22"
         },
