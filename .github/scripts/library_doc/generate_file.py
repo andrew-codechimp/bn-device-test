@@ -31,7 +31,7 @@ def generate_device_list():
 
     for device in devices:
         if device.get("battery_quantity", 1) > 1:
-            battery_type_qty = f"{device['battery_type']}x {device['battery_type']}"
+            battery_type_qty = f"{device['battery_quantity']}x {device['battery_type']}"
         else:
             battery_type_qty = device["battery_type"]
         row = [
@@ -42,7 +42,7 @@ def generate_device_list():
         rows.append(row)
 
     writer.value_matrix = rows
-    tables_output += f"\n##{num_devices} Devices in library\n####\n\n"
+    tables_output += f"\n## {num_devices} Devices in library\n####\n\n"
     tables_output += writer.dumps()
 
     with open("library.md", "w", encoding="UTF-8") as md_file:
