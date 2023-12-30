@@ -9,21 +9,13 @@ from pathlib import Path
 
 from pytablewriter import MarkdownTableWriter
 
-sys.path.insert(
-    1,
-    os.path.abspath(
-        os.path.join(Path(__file__), "../../../../custom_components/battery_notes"),
-    ),
-)
-
-PROJECT_ROOT = os.path.realpath(os.path.join(os.path.abspath(__file__), "../../../../"))
-DATA_DIR = f"{PROJECT_ROOT}/custom_components/battery_notes/data"
-
 def generate_device_list():
     """Generate static file containing the device library."""
 
-    json_data = json.load("{DATA_DIR}/library.json")
-    devices = json_data["devices"]
+    # Load the existing JSON library file
+    with open("custom_components/battery_notes/data/library.json", "r", encoding="UTF-8") as f:
+        devices_json = json.loads(f.read())
+        devices = devices_json.get("devices")
 
     toc_links: list[str] = []
     tables_output: str = ""
@@ -56,7 +48,7 @@ def generate_device_list():
     tables_output += f"\n##{num_devices} Devices in library\n####\n\n"
     tables_output += writer.dumps()
 
-    with open(os.path.join(PROJECT_ROOT, "library.md"), "w", encoding="utf8") as md_file:
+    with open("library.md"), "w", encoding="UTF-8") as md_file:
         md_file.write("".join(toc_links) + tables_output)
         md_file.close()
 
