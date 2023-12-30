@@ -2,315 +2,315 @@
 ## 310 Devices in library
 ####
 
-|            Manufacturer            |                                      Model                                       |Battery Type|
-|------------------------------------|----------------------------------------------------------------------------------|------------|
-|<span>_TZ3000_4fjiwweb<span>        |<span>TS004F<span>                                                                |CR2032      |
-|<span>_TZ3000_6ygjfyll<span>        |<span>TS0202<span>                                                                |CR2450      |
-|<span>_TZ3000_fllyghyj<span>        |<span>TS0201<span>                                                                |2x AAA      |
-|<span>_TZ3000_k4ej3ww2<span>        |<span>TS0207<span>                                                                |CR2032      |
-|<span>_TZ3000_lf56vpxj<span>        |<span>TS0202<span>                                                                |2x AAA      |
-|<span>_TZ3000_wkai4ga5<span>        |<span>TS0044<span>                                                                |CR2430      |
-|<span>_TZ3000_yxqnffam<span>        |<span>TS0203<span>                                                                |2x AAA      |
-|<span>_TZ3210_up3pngle<span>        |<span>TS0205<span>                                                                |2x AAA      |
-|<span>_TZE200_b6wax7g0<span>        |<span>TS0601<span>                                                                |2x AA       |
-|<span>_TZE200_c88teujp<span>        |<span>TS0601<span>                                                                |2x AA       |
-|<span>AEON Labs<span>               |<span>ZW100<span>                                                                 |2x CR123A   |
-|<span>AEON Labs<span>               |<span>ZW112<span>                                                                 |Rechargeable|
-|<span>Aeotec Ltd.<span>             |<span>ZWA003<span>                                                                |LIR2450     |
-|<span>Aeotec Ltd.<span>             |<span>ZWA005<span>                                                                |CR123A      |
-|<span>Aeotec Ltd.<span>             |<span>ZWA008<span>                                                                |ER14250     |
-|<span>Aeotec Ltd.<span>             |<span>ZWA039<span>                                                                |CR2477      |
-|<span>Airthings AS<span>            |<span>Wave Plus<span>                                                             |2x AAA      |
-|<span>Aldi<span>                    |<span>MEGOS switch and dimming light remote control (141L100RC)<span>             |CR2450      |
-|<span>Allegion<span>                |<span>BE469ZP<span>                                                               |4x AAA      |
-|<span>Andrew<span>                  |<span>ABC1<span>                                                                  |PP3         |
-|<span>Andrew<span>                  |<span>ABC3<span>                                                                  |PP3         |
-|<span>Andrew<span>                  |<span>ABC4<span>                                                                  |PP3         |
-|<span>Aqara<span>                   |<span>Aqara Door and Window Sensor P2<span>                                       |CR123A      |
-|<span>August Home Inc.<span>        |<span>AK-R1<span>                                                                 |2x AAA      |
-|<span>August Home Inc.<span>        |<span>ASL6_05/101300/SI<span>                                                     |4x AA       |
-|<span>August Home Inc.<span>        |<span>AUG-SL05-M01-S01<span>                                                      |2x CR123A   |
-|<span>Bosch<span>                   |<span>Radiator thermostat II (BTH-RA)<span>                                       |2x AA       |
-|<span>ChimpCo<span>                 |<span>ABC 2<span>                                                                 |AAA         |
-|<span>ChimpCo<span>                 |<span>ABC 3<span>                                                                 |AA          |
-|<span>ChimpCo<span>                 |<span>ABC 5<span>                                                                 |3x PP3      |
-|<span>ChimpCo<span>                 |<span>ABC 6<span>                                                                 |4x AA       |
-|<span>ChimpCo<span>                 |<span>ABC1<span>                                                                  |2x PP3      |
-|<span>ChimpCo<span>                 |<span>Button 01<span>                                                             |CR22        |
-|<span>ChimpCo<span>                 |<span>Switch 01<span>                                                             |CR22        |
-|<span>Custom devices (DiY)<span>    |<span>Xiaomi temperature & humidity sensor with custom firmware (LYWSD03MMC)<span>|CR2032      |
-|<span>Danfoss<span>                 |<span>010101<span>                                                                |2x AA       |
-|<span>Danfoss<span>                 |<span>eTRV0100<span>                                                              |2x AA       |
-|<span>Develco<span>                 |<span>Smoke detector with siren (SMSZB-120)<span>                                 |CR123       |
-|<span>Develco Products A/S<span>    |<span>AQSZB-110<span>                                                             |2x AA       |
-|<span>DIYRuZ<span>                  |<span>[Flower sensor](http://modkam.ru/?p=1700) (DIYRuZ_Flower)<span>             |2x AAA      |
-|<span>Drayton Wiser<span>           |<span>iTRV<span>                                                                  |2x AA       |
-|<span>Drayton Wiser<span>           |<span>RoomStat<span>                                                              |2x AA       |
-|<span>ecobee Inc.<span>             |<span>EBERS41<span>                                                               |CR2477      |
-|<span>ecobee Inc.<span>             |<span>EBRSE4<span>                                                                |CR2032      |
-|<span>Ecolink<span>                 |<span>DWZWAVE25<span>                                                             |CR123A      |
-|<span>Ecolink<span>                 |<span>TILT-ZWAVE2.5-ECO<span>                                                     |CR123A      |
-|<span>eQ-3<span>                    |<span>HM-CC-RT-DN<span>                                                           |2x AA       |
-|<span>eQ-3<span>                    |<span>HM-Dis-EP-WM55<span>                                                        |2x AAA      |
-|<span>eQ-3<span>                    |<span>HM-ES-TX-WM<span>                                                           |4x AA       |
-|<span>eQ-3<span>                    |<span>HM-Sec-RHS<span>                                                            |2x LR44     |
-|<span>eQ-3<span>                    |<span>HM-Sec-SCo<span>                                                            |AAA         |
-|<span>eQ-3<span>                    |<span>HM-TC-IT-WM-W-EU<span>                                                      |2x AAA      |
-|<span>eQ-3<span>                    |<span>HmIP-DLD<span>                                                              |4x AA       |
-|<span>eQ-3<span>                    |<span>HMIP-eTRV<span>                                                             |2x AA       |
-|<span>eQ-3<span>                    |<span>HMIP-eTRV-2<span>                                                           |2x AA       |
-|<span>eQ-3<span>                    |<span>HMIP-eTRV-B<span>                                                           |2x AA       |
-|<span>eQ-3<span>                    |<span>HMIP-eTRV-C<span>                                                           |2x AA       |
-|<span>eQ-3<span>                    |<span>HmIP-eTRV-CL<span>                                                          |4x AA       |
-|<span>eQ-3<span>                    |<span>HMIP-eTRV-E<span>                                                           |2x AA       |
-|<span>eQ-3<span>                    |<span>HmIP-KRCK<span>                                                             |AAA         |
-|<span>eQ-3<span>                    |<span>HmIP-SCI<span>                                                              |2x AAA      |
-|<span>eQ-3<span>                    |<span>HmIP-SLO<span>                                                              |2x AA       |
-|<span>eQ-3<span>                    |<span>HmIP-SMI<span>                                                              |2x AA       |
-|<span>eQ-3<span>                    |<span>HmIP-SMI55<span>                                                            |2x AAA      |
-|<span>eQ-3<span>                    |<span>HmIP-SMO<span>                                                              |2x AA       |
-|<span>eQ-3<span>                    |<span>HmIP-SRH<span>                                                              |AAA         |
-|<span>eQ-3<span>                    |<span>HmIP-STH<span>                                                              |2x AAA      |
-|<span>eQ-3<span>                    |<span>HmIP-SWDM<span>                                                             |2x AAA      |
-|<span>eQ-3<span>                    |<span>HMIP-SWDO<span>                                                             |AAA         |
-|<span>eQ-3<span>                    |<span>HMIP-SWDO-I<span>                                                           |2x AAA      |
-|<span>eQ-3<span>                    |<span>HMIP-SWDO-PL<span>                                                          |2x AAA      |
-|<span>eQ-3<span>                    |<span>HMIP-WRC2<span>                                                             |2x AAA      |
-|<span>eQ-3<span>                    |<span>HmIP-WRC6<span>                                                             |2x AAA      |
-|<span>eQ-3<span>                    |<span>HmIP-WRCD<span>                                                             |2x AAA      |
-|<span>eQ-3<span>                    |<span>HmIP-WTH-2<span>                                                            |2x AAA      |
-|<span>Eurotronics<span>             |<span>Spirit<span>                                                                |2x AA       |
-|<span>Eve Systems<span>             |<span>Eve Door 20EBN9901<span>                                                    |ER14250     |
-|<span>eWeLink<span>                 |<span>DS01<span>                                                                  |CR2032      |
-|<span>eWeLink<span>                 |<span>MS01<span>                                                                  |CR2450      |
-|<span>eWeLink<span>                 |<span>SNZB-02P<span>                                                              |CR2477      |
-|<span>eWeLink<span>                 |<span>TH01<span>                                                                  |CR2450      |
-|<span>Fantem<span>                  |<span>4 in 1 multi sensor (ZB003-X)<span>                                         |2x CR123A   |
-|<span>Fibargroup<span>              |<span>FGDW002<span>                                                               |ER14250     |
-|<span>Fibargroup<span>              |<span>FGK101<span>                                                                |ER14250     |
-|<span>Fibargroup<span>              |<span>FGMS001<span>                                                               |CR123A      |
-|<span>Fibargroup<span>              |<span>FGSD002<span>                                                               |CR123A      |
-|<span>frient<span>                  |<span>MOSZB-140<span>                                                             |2x AA       |
-|<span>frient A/S<span>              |<span>HESZB-120<span>                                                             |CR123A      |
-|<span>frient A/S<span>              |<span>SMSZB-120<span>                                                             |CR123       |
-|<span>GiEX<span>                    |<span>Water irrigation valve (QT06_2)<span>                                       |4x AA       |
-|<span>Google<span>                  |<span>KR1<span>                                                                   |CR2         |
-|<span>Google<span>                  |<span>Topaz-2.7<span>                                                             |MANUAL      |
-|<span>Govee<span>                   |<span>H5101/H5102/H5177<span>                                                     |AAA         |
-|<span>HANK Electronics Ltd.<span>   |<span>HKZW-DWS01<span>                                                            |2x AAA      |
-|<span>HEIMAN<span>                  |<span>Smart carbon monoxide sensor (HS1CA-E)<span>                                |CR123A      |
-|<span>HEIMAN<span>                  |<span>Smoke detector (HS1SA)<span>                                                |CR123A      |
-|<span>HEIMAN<span>                  |<span>Smoke detector (HS3SA/HS1SA)<span>                                          |CR123A      |
-|<span>Hive<span>                    |<span>Heating thermostat remote control (SLT3C)<span>                             |4x AA       |
-|<span>Hunter Douglas<span>          |<span>Duette<span>                                                                |12x AA      |
-|<span>IKEA<span>                    |<span>FYRTUR roller blind (E1757)<span>                                           |Rechargeable|
-|<span>IKEA<span>                    |<span>STYRBAR remote control (E2001/E2002)<span>                                  |2x AAA      |
-|<span>IKEA<span>                    |<span>SYMFONISK sound controller (E1744)<span>                                    |CR2032      |
-|<span>IKEA<span>                    |<span>TRADFRI motion sensor<span>                                                 |2x CR2032   |
-|<span>IKEA<span>                    |<span>TRADFRI motion sensor (E1525/E1745)<span>                                   |2x CR2032   |
-|<span>IKEA<span>                    |<span>TRADFRI ON/OFF switch (E1743)<span>                                         |CR2032      |
-|<span>IKEA<span>                    |<span>TRADFRI open/close remote (E1766)<span>                                     |CR2032      |
-|<span>IKEA<span>                    |<span>TRADFRI remote control (E1524/E1810)<span>                                  |CR2032      |
-|<span>IKEA<span>                    |<span>TRADFRI shortcut button (E1812)<span>                                       |CR2032      |
-|<span>IKEA of Sweden<span>          |<span>Remote Control N2<span>                                                     |2x AAA      |
-|<span>IKEA of Sweden<span>          |<span>RODRET Dimmer<span>                                                         |AAA         |
-|<span>IKEA of Sweden<span>          |<span>SYMFONISK Sound Controller<span>                                            |CR2032      |
-|<span>IKEA of Sweden<span>          |<span>TRADFRI motion sensor<span>                                                 |2x CR2032   |
-|<span>IKEA of Sweden<span>          |<span>TRADFRI ON/OFF switch<span>                                                 |CR2032      |
-|<span>IKEA of Sweden<span>          |<span>TRADFRI SHORTCUT Button<span>                                               |CR2032      |
-|<span>INKBIRD<span>                 |<span>IBS-TH<span>                                                                |2x AAA      |
-|<span>iNode<span>                   |<span>iNode Energy Meter<span>                                                    |CR2032      |
-|<span>iRobot<span>                  |<span>i715640<span>                                                               |Rechargeable|
-|<span>Konke<span>                   |<span>3AFE28010402000D<span>                                                      |CR2450      |
-|<span>Kwikset<span>                 |<span>HALO-01<span>                                                               |4x AA       |
-|<span>Kwikset<span>                 |<span>Kevo<span>                                                                  |4x AA       |
-|<span>Kwikset<span>                 |<span>SMARTCODE_DEADBOLT_10T<span>                                                |4x AA       |
-|<span>Lidl<span>                    |<span>HG06335/HG07310<span>                                                       |MANUAL      |
-|<span>Lidl<span>                    |<span>HG06336<span>                                                               |2x AAA      |
-|<span>Lidl<span>                    |<span>Silvercrest radiator valve with thermostat (368308_2010)<span>              |2x AA       |
-|<span>Lidl<span>                    |<span>Silvercrest smart motion sensor (HG06335/HG07310)<span>                     |2x AAA      |
-|<span>Lidl<span>                    |<span>Silvercrest smart motion sensor (HG06335/HG07310)<span>                     |CR123A      |
-|<span>Linkind<span>                 |<span>Door/window Sensor (ZS110050078)<span>                                      |CR2032      |
-|<span>Linkind<span>                 |<span>PIR motion sensor, wireless motion detector (ZS1100400-IN-V1A02)<span>      |CR2450      |
-|<span>Linkind<span>                 |<span>Security keypad battery (ZS130000078)<span>                                 |2x CR123A   |
-|<span>LUMI<span>                    |<span>lumi.airrtc.agl001<span>                                                    |2x AA       |
-|<span>LUMI<span>                    |<span>lumi.curtain.acn002<span>                                                   |Rechargeable|
-|<span>LUMI<span>                    |<span>lumi.remote.b1acn01<span>                                                   |CR2032      |
-|<span>LUMI<span>                    |<span>lumi.remote.b686opcn01<span>                                                |CR2032      |
-|<span>LUMI<span>                    |<span>lumi.sen_ill.mgl01<span>                                                    |CR2450      |
-|<span>LUMI<span>                    |<span>lumi.sensor_cube.aqgl01<span>                                               |CR2450      |
-|<span>LUMI<span>                    |<span>lumi.sensor_h1<span>                                                        |CR2032      |
-|<span>LUMI<span>                    |<span>lumi.sensor_magnet.aq2<span>                                                |CR1632      |
-|<span>LUMI<span>                    |<span>lumi.sensor_motion<span>                                                    |CR2450      |
-|<span>LUMI<span>                    |<span>lumi.sensor_motion.aq2<span>                                                |CR2450      |
-|<span>LUMI<span>                    |<span>lumi.sensor_switch.aq3<span>                                                |CR2032      |
-|<span>LUMI<span>                    |<span>lumi.sensor_wleak.aq1<span>                                                 |CR2032      |
-|<span>LUMI<span>                    |<span>lumi.vibration.aq1<span>                                                    |CR2032      |
-|<span>LUMI<span>                    |<span>lumi.weather<span>                                                          |CR2032      |
-|<span>Meross<span>                  |<span>ms100<span>                                                                 |CR2477      |
-|<span>Moes<span>                    |<span>Thermostatic radiator valve (BRT-100-TRV)<span>                             |2x AA       |
-|<span>Mopeka IOT<span>              |<span>M1015<span>                                                                 |AAA-Lithium |
-|<span>Mopeka IOT<span>              |<span>M1017<span>                                                                 |CR2032      |
-|<span>Neo<span>                     |<span>Temperature & humidity sensor and alarm (NAS-AB02B0)<span>                  |2x CR123A   |
-|<span>Netatmo<span>                 |<span>Additional Indoor Module<span>                                              |4x AAA      |
-|<span>Netatmo<span>                 |<span>Netatmo Valve<span>                                                         |2x AA       |
-|<span>Netatmo<span>                 |<span>Outdoor Module<span>                                                        |2x AAA      |
-|<span>Netatmo<span>                 |<span>Smart Anemometer<span>                                                      |4x AA       |
-|<span>Netatmo<span>                 |<span>Smart Indoor Module<span>                                                   |2x AAA      |
-|<span>Netatmo<span>                 |<span>Smart Outdoor Module<span>                                                  |2x AAA      |
-|<span>Netatmo<span>                 |<span>Smart Rain Gauge<span>                                                      |2x AAA      |
-|<span>Netatmo<span>                 |<span>Smart Thermostat<span>                                                      |3x AAA      |
-|<span>OpenEpaperLink<span>          |<span>ST‐GR16000 1.54"<span>                                                      |CR2450      |
-|<span>OpenEpaperLink<span>          |<span>ST‐GR29000 2.9"<span>                                                       |2x CR2450   |
-|<span>Oral-B<span>                  |<span>Genius X<span>                                                              |Rechargeable|
-|<span>Oral-B<span>                  |<span>IO Series 6/7<span>                                                         |Rechargeable|
-|<span>Oras<span>                    |<span>Electra Washbasin Faucet<span>                                              |2CR5        |
-|<span>Orbit BHyve<span>             |<span>HT25-0000<span>                                                             |2x AA       |
-|<span>ORVIBO<span>                  |<span>e70f96b3773a4c9283c6862dbafb6a99<span>                                      |CR2032      |
-|<span>OSRAM<span>                   |<span>Smart+ switch mini (AC0251100NJ/AC0251600NJ/AC0251700NJ)<span>              |CR2450      |
-|<span>Philips<span>                 |<span>Hue dimmer switch (324131092621)<span>                                      |CR2450      |
-|<span>Philips<span>                 |<span>Hue dimmer switch (929002398602)<span>                                      |CR2450      |
-|<span>Philips<span>                 |<span>Hue motion outdoor sensor (9290019758)<span>                                |2x AA       |
-|<span>Philips<span>                 |<span>Hue motion outdoor sensor (9290030674)<span>                                |2x AA       |
-|<span>Philips<span>                 |<span>Hue motion sensor (9290012607)<span>                                        |2x AAA      |
-|<span>Philips<span>                 |<span>Hue motion sensor (9290030675)<span>                                        |2x AAA      |
-|<span>Philips<span>                 |<span>Hue smart button (8718699693985)<span>                                      |CR2032      |
-|<span>Philips<span>                 |<span>Hue wall switch module (929003017102)<span>                                 |CR2450      |
-|<span>Philips<span>                 |<span>RWL021<span>                                                                |CR2450      |
-|<span>Philips<span>                 |<span>RWL022<span>                                                                |CR2032      |
-|<span>Ring<span>                    |<span>Contact Sensor<span>                                                        |2x CR2032   |
-|<span>Ring<span>                    |<span>Doorbell 2<span>                                                            |Rechargeable|
-|<span>Ring<span>                    |<span>Motion Sensor<span>                                                         |2x AA       |
-|<span>Ring<span>                    |<span>Security Keypad<span>                                                       |Rechargeable|
-|<span>Roborock<span>                |<span>roborock.vacuum.a15<span>                                                   |Rechargeable|
-|<span>rtl_433<span>                 |<span>Acurite-Tower<span>                                                         |2x AA       |
-|<span>Ruuvi<span>                   |<span>Ruuvitag<span>                                                              |CR2477T     |
-|<span>Samjin<span>                  |<span>motion<span>                                                                |CR2         |
-|<span>Samjin<span>                  |<span>multi<span>                                                                 |CR2450      |
-|<span>Samjin<span>                  |<span>water<span>                                                                 |CR2         |
-|<span>Saswell<span>                 |<span>Thermostatic radiator valve (SEA801-Zigbee/SEA802-Zigbee)<span>             |2x AA       |
-|<span>Shelly<span>                  |<span>Shelly Door/Window 2<span>                                                  |2x CR123A   |
-|<span>Shelly<span>                  |<span>Shelly Flood<span>                                                          |CR123A      |
-|<span>Shelly<span>                  |<span>Shelly H&T<span>                                                            |CR123A      |
-|<span>Signify Netherlands B.V.<span>|<span>Hue dimmer switch (RWL020)<span>                                            |CR2450      |
-|<span>Signify Netherlands B.V.<span>|<span>Hue dimmer switch (RWL021)<span>                                            |CR2450      |
-|<span>Signify Netherlands B.V.<span>|<span>Hue dimmer switch (RWL022)<span>                                            |CR2032      |
-|<span>Signify Netherlands B.V.<span>|<span>Hue motion sensor (SML001)<span>                                            |2x AAA      |
-|<span>Signify Netherlands B.V.<span>|<span>Hue motion sensor (SML003)<span>                                            |2x AAA      |
-|<span>Signify Netherlands B.V.<span>|<span>Hue outdoor motion sensor (SML002)<span>                                    |2x AA       |
-|<span>Signify Netherlands B.V.<span>|<span>Hue tap dial switch (RDM002)<span>                                          |CR2032      |
-|<span>Signify Netherlands B.V.<span>|<span>Hue wall switch module (RDM001)<span>                                       |CR2450      |
-|<span>Signify Netherlands B.V.<span>|<span>RDM001<span>                                                                |CR2450      |
-|<span>Signify Netherlands B.V.<span>|<span>RWL022<span>                                                                |CR2032      |
-|<span>Signify Netherlands B.V.<span>|<span>SML001<span>                                                                |2x AAA      |
-|<span>Signify Netherlands B.V.<span>|<span>SML002<span>                                                                |2x AA       |
-|<span>Signify Netherlands B.V.<span>|<span>SML003<span>                                                                |2x AAA      |
-|<span>Signify Netherlands B.V.<span>|<span>SML003<span>                                                                |2x AAA      |
-|<span>Siterwell<span>               |<span>Radiator valve with thermostat (GS361A-H04)<span>                           |2x AA       |
-|<span>SMaBiT (Bitron Video)<span>   |<span>Compact magnetic contact sensor (AV2010/21A)<span>                          |CR2         |
-|<span>SmartThings<span>             |<span>Button (IM6001-BTP01)<span>                                                 |CR2450      |
-|<span>SmartThings<span>             |<span>Motion sensor (2018 model) (IM6001-MTP01)<span>                             |CR2         |
-|<span>SmartThings<span>             |<span>Multipurpose sensor (2018 model) (IM6001-MPP01)<span>                       |CR2450      |
-|<span>Sonoff<span>                  |<span>Contact sensor (SNZB-04)<span>                                              |CR2032      |
-|<span>SONOFF<span>                  |<span>Motion sensor (SNZB-03)<span>                                               |CR2450      |
-|<span>Sonoff<span>                  |<span>SNZB-02<span>                                                               |CR2450      |
-|<span>Sonoff<span>                  |<span>Temperature and humidity sensor (SNZB-02)<span>                             |CR2450      |
-|<span>SONOFF<span>                  |<span>Temperature and humidity sensor with screen (SNZB-02D)<span>                |CR2450      |
-|<span>SONOFF<span>                  |<span>TRVZB<span>                                                                 |3x AA       |
-|<span>SONOFF<span>                  |<span>Wireless button (SNZB-01)<span>                                             |CR2450      |
-|<span>SONOFF<span>                  |<span>Zigbee thermostatic radiator valve (TRVZB)<span>                            |3x AA       |
-|<span>Sure Petcare<span>            |<span>Cat flap<span>                                                              |4x AA       |
-|<span>Sure Petcare<span>            |<span>Pet flap<span>                                                              |4x C        |
-|<span>SwitchBot<span>               |<span>W1101500<span>                                                              |2x AAA      |
-|<span>SwitchBot<span>               |<span>W1201500<span>                                                              |2x AAA      |
-|<span>SwitchBot<span>               |<span>W340001X<span>                                                              |2x AAA      |
-|<span>switchbot<span>               |<span>WoCurtain<span>                                                             |Rechargeable|
-|<span>switchbot<span>               |<span>woHand<span>                                                                |CR2         |
-|<span>switchbot<span>               |<span>WoIOSensorTH<span>                                                          |2x AAA      |
-|<span>Tado<span>                    |<span>RU01<span>                                                                  |3x AAA      |
-|<span>Tado<span>                    |<span>RU02<span>                                                                  |3x AAA      |
-|<span>Tado<span>                    |<span>SU02<span>                                                                  |3x AAA      |
-|<span>Tado<span>                    |<span>VA01<span>                                                                  |2x AA       |
-|<span>Tado<span>                    |<span>VA02<span>                                                                  |2x AA       |
-|<span>Third Reality<span>           |<span>Smart switch Gen3 (3RSS009Z)<span>                                          |2x AAA      |
-|<span>Third Reality, Inc<span>      |<span>3RDS17BZ<span>                                                              |2x AAA      |
-|<span>Third Reality, Inc<span>      |<span>3RSS009Z<span>                                                              |2x AAA      |
-|<span>Third Reality, Inc<span>      |<span>3RWS18BZ<span>                                                              |2x AAA      |
-|<span>TT Lock<span>                 |<span>SN511-180MS_PV53<span>                                                      |4x AA       |
-|<span>TUO Accessories LLC<span>     |<span>TUO Smart Button<span>                                                      |CR2032      |
-|<span>TuYa<span>                    |<span>Button scene switch (SH-SC07)<span>                                         |CR2450      |
-|<span>TuYa<span>                    |<span>Door sensor (TS0203)<span>                                                  |CR2032      |
-|<span>TuYa<span>                    |<span>Door sensor (ZD08)<span>                                                    |CR2032      |
-|<span>TuYa<span>                    |<span>IH012-RT01<span>                                                            |CR2450      |
-|<span>TuYa<span>                    |<span>Luminance door sensor (ZG-102ZL)<span>                                      |CR2032      |
-|<span>TuYa<span>                    |<span>Luminance motion sensor (ZG-204ZL)<span>                                    |CR2450      |
-|<span>TuYa<span>                    |<span>Motion sensor (IH012-RT01)<span>                                            |CR2450      |
-|<span>TuYa<span>                    |<span>Smart knob (ERS-10TZBVK-AA)<span>                                           |CR2032      |
-|<span>TuYa<span>                    |<span>Smoke sensor (TS0601_smoke_1)<span>                                         |2x AAA      |
-|<span>TuYa<span>                    |<span>Soil sensor (TS0601_soil)<span>                                             |2x AA       |
-|<span>TuYa<span>                    |<span>Temperature & humidity sensor (IH-K009)<span>                               |CR2450      |
-|<span>TuYa<span>                    |<span>Temperature & humidity sensor (WSD500A)<span>                               |2x AAA      |
-|<span>TuYa<span>                    |<span>Temperature & humidity sensor with display (TS0201)<span>                   |2x AAA      |
-|<span>TuYa<span>                    |<span>Temperature and humidity sensor (TH02Z)<span>                               |2x AAA      |
-|<span>TuYa<span>                    |<span>Temperature and humidity sensor (ZTH05)<span>                               |CR2032      |
-|<span>TuYa<span>                    |<span>TS0203<span>                                                                |CR2032      |
-|<span>TuYa<span>                    |<span>TS0601_smoke_1<span>                                                        |2x AAA      |
-|<span>TuYa<span>                    |<span>Water leak detector (TS0207_water_leak_detector)<span>                      |2x AAA      |
-|<span>TuYa<span>                    |<span>Wireless switch with 4 buttons (TS0044)<span>                               |CR2430      |
-|<span>TuYa<span>                    |<span>Zigbee water leak sensor (TS0207_water_leak_detector_2)<span>               |CR2032      |
-|<span>VictorPest.com<span>          |<span>Rat Trap<span>                                                              |4x C        |
-|<span>Xiaomi<span>                  |<span>Aqara D1 double key wireless wall switch (WXKG07LM)<span>                   |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara D1 single key wireless wall switch (WXKG06LM)<span>                   |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara door & window contact sensor (MCCGQ11LM)<span>                        |CR1632      |
-|<span>Xiaomi<span>                  |<span>Aqara double key wireless wall switch (2016 model) (WXKG02LM_rev1)<span>    |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara E1 door & window contact sensor (MCCGQ14LM)<span>                     |CR1632      |
-|<span>Xiaomi<span>                  |<span>Aqara E1 double key wireless switch (WXKG17LM)<span>                        |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara E1 human body movement and illuminance sensor (RTCGQ15LM)<span>       |CR2450      |
-|<span>Xiaomi<span>                  |<span>Aqara E1 wireless mini switch (WXKG20LM)<span>                              |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara human body movement and illuminance sensor (RTCGQ11LM)<span>          |CR2450      |
-|<span>Xiaomi<span>                  |<span>Aqara Opple switch 2 bands (WXCJKG12LM)<span>                               |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara Opple switch 3 bands (WXCJKG13LM)<span>                               |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara P1 human body movement and illuminance sensor (RTCGQ14LM)<span>       |2x CR2450   |
-|<span>Xiaomi<span>                  |<span>Aqara single key wireless wall switch (2016 model) (WXKG03LM_rev1)<span>    |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara single key wireless wall switch (2018 model) (WXKG03LM_rev2)<span>    |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara Smart Radiator Thermostat E1 (SRTS-A01)<span>                         |2x AA       |
-|<span>Xiaomi<span>                  |<span>Aqara T1 light intensity sensor (GZCGQ11LM)<span>                           |CR2450      |
-|<span>Xiaomi<span>                  |<span>Aqara temperature, humidity and pressure sensor (WSDCGQ11LM)<span>          |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara TVOC air quality monitor (VOCKQJK11LM)<span>                          |2x CR2450   |
-|<span>Xiaomi<span>                  |<span>Aqara vibration sensor (DJT11LM)<span>                                      |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara water leak sensor (SJCGQ11LM)<span>                                   |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara wireless remote switch E1 (single rocker) (WXKG16LM)<span>            |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara wireless switch (with gyroscope) (WXKG12LM)<span>                     |CR2032      |
-|<span>Xiaomi<span>                  |<span>Aqara wireless switch (WXKG11LM)<span>                                      |CR2032      |
-|<span>Xiaomi<span>                  |<span>ble LYWSD03MMC<span>                                                        |CR2032      |
-|<span>Xiaomi<span>                  |<span>ble MCCGQ02HL<span>                                                         |CR2032      |
-|<span>Xiaomi<span>                  |<span>ble MJYD02YL-A<span>                                                        |3x AAA      |
-|<span>Xiaomi<span>                  |<span>ble RTCGQ02LM<span>                                                         |CR2450      |
-|<span>Xiaomi<span>                  |<span>ble XMPIR02SXS<span>                                                        |CR2450      |
-|<span>Xiaomi<span>                  |<span>ble XMWSDJ04MMC<span>                                                       |CR2450      |
-|<span>Xiaomi<span>                  |<span>GZCGQ01LM<span>                                                             |CR2450      |
-|<span>Xiaomi<span>                  |<span>HHCCJCY01<span>                                                             |CR2032      |
-|<span>Xiaomi<span>                  |<span>LYWSD03MMC<span>                                                            |CR2032      |
-|<span>Xiaomi<span>                  |<span>LYWSD03MMC/MJWSD05MMC_PVVX<span>                                            |CR2032      |
-|<span>Xiaomi<span>                  |<span>LYWSDCGQ<span>                                                              |AAA         |
-|<span>Xiaomi<span>                  |<span>MCCGQ01LM<span>                                                             |CR1632      |
-|<span>Xiaomi<span>                  |<span>Mi/Aqara smart home cube (MFKZQ01LM)<span>                                  |CR2450      |
-|<span>Xiaomi<span>                  |<span>MiJia door & window contact sensor (MCCGQ01LM)<span>                        |CR1632      |
-|<span>Xiaomi<span>                  |<span>MiJia Honeywell smoke detector (JTYJ-GD-01LM/BW)<span>                      |2x CR123A   |
-|<span>Xiaomi<span>                  |<span>MiJia human body movement sensor (RTCGQ01LM)<span>                          |CR2450      |
-|<span>Xiaomi<span>                  |<span>MiJia light intensity sensor (GZCGQ01LM)<span>                              |CR2450      |
-|<span>Xiaomi<span>                  |<span>MiJia temperature & humidity sensor (WSDCGQ01LM)<span>                      |CR2032      |
-|<span>Xiaomi<span>                  |<span>MiJia wireless switch (WXKG01LM)<span>                                      |CR2032      |
-|<span>Xiaomi<span>                  |<span>RTCGQ01LM<span>                                                             |CR2450      |
-|<span>Xiaomi<span>                  |<span>SRTS-A01<span>                                                              |2x AA       |
-|<span>Xiaomi<span>                  |<span>WSDCGQ01LM<span>                                                            |CR2032      |
-|<span>Xiaomi<span>                  |<span>XMTZC02HM/XMTZC05HM/NUN4049CN<span>                                         |4x AAA      |
-|<span>Xiaomi<span>                  |<span>XMWSDJ04MMC<span>                                                           |CR2450      |
-|<span>Xiaomi<span>                  |<span>zigbee RTCGQ11LM (lumi.sensor_motion.aq2)<span>                             |CR2450      |
-|<span>Yale<span>                    |<span>YRD220/240 TSDB<span>                                                       |4x AA       |
-|<span>YoLink<span>                  |<span>DoorSensor<span>                                                            |2x AAA      |
-|<span>YoLink<span>                  |<span>MotionSensor<span>                                                          |2x AAA      |
-|<span>Zooz<span>                    |<span>ZEN34<span>                                                                 |2x AAA      |
-|<span>Zooz<span>                    |<span>ZSE40 700<span>                                                             |CR123A      |
-|<span>Zooz<span>                    |<span>ZSE41<span>                                                                 |CR2032      |
-|<span>Zooz<span>                    |<span>ZSE42<span>                                                                 |CR2032      |
+|      Manufacturer      |                                Model                                 |Battery Type|
+|------------------------|----------------------------------------------------------------------|------------|
+|_TZ3000_4fjiwweb        |TS004F                                                                |CR2032      |
+|_TZ3000_6ygjfyll        |TS0202                                                                |CR2450      |
+|_TZ3000_fllyghyj        |TS0201                                                                |2x AAA      |
+|_TZ3000_k4ej3ww2        |TS0207                                                                |CR2032      |
+|_TZ3000_lf56vpxj        |TS0202                                                                |2x AAA      |
+|_TZ3000_wkai4ga5        |TS0044                                                                |CR2430      |
+|_TZ3000_yxqnffam        |TS0203                                                                |2x AAA      |
+|_TZ3210_up3pngle        |TS0205                                                                |2x AAA      |
+|_TZE200_b6wax7g0        |TS0601                                                                |2x AA       |
+|_TZE200_c88teujp        |TS0601                                                                |2x AA       |
+|AEON Labs               |ZW100                                                                 |2x CR123A   |
+|AEON Labs               |ZW112                                                                 |Rechargeable|
+|Aeotec Ltd.             |ZWA003                                                                |LIR2450     |
+|Aeotec Ltd.             |ZWA005                                                                |CR123A      |
+|Aeotec Ltd.             |ZWA008                                                                |ER14250     |
+|Aeotec Ltd.             |ZWA039                                                                |CR2477      |
+|Airthings AS            |Wave Plus                                                             |2x AAA      |
+|Aldi                    |MEGOS switch and dimming light remote control (141L100RC)             |CR2450      |
+|Allegion                |BE469ZP                                                               |4x AAA      |
+|Andrew                  |ABC1                                                                  |PP3         |
+|Andrew                  |ABC3                                                                  |PP3         |
+|Andrew                  |ABC4                                                                  |PP3         |
+|Aqara                   |Aqara Door and Window Sensor P2                                       |CR123A      |
+|August Home Inc.        |AK-R1                                                                 |2x AAA      |
+|August Home Inc.        |ASL6_05/101300/SI                                                     |4x AA       |
+|August Home Inc.        |AUG-SL05-M01-S01                                                      |2x CR123A   |
+|Bosch                   |Radiator thermostat II (BTH-RA)                                       |2x AA       |
+|ChimpCo                 |ABC 2                                                                 |AAA         |
+|ChimpCo                 |ABC 3                                                                 |AA          |
+|ChimpCo                 |ABC 5                                                                 |3x PP3      |
+|ChimpCo                 |ABC 6                                                                 |4x AA       |
+|ChimpCo                 |ABC1                                                                  |2x PP3      |
+|ChimpCo                 |Button 01                                                             |CR22        |
+|ChimpCo                 |Switch 01                                                             |CR22        |
+|Custom devices (DiY)    |Xiaomi temperature & humidity sensor with custom firmware (LYWSD03MMC)|CR2032      |
+|Danfoss                 |010101                                                                |2x AA       |
+|Danfoss                 |eTRV0100                                                              |2x AA       |
+|Develco                 |Smoke detector with siren (SMSZB-120)                                 |CR123       |
+|Develco Products A/S    |AQSZB-110                                                             |2x AA       |
+|DIYRuZ                  |[Flower sensor](http://modkam.ru/?p=1700) (DIYRuZ_Flower)             |2x AAA      |
+|Drayton Wiser           |iTRV                                                                  |2x AA       |
+|Drayton Wiser           |RoomStat                                                              |2x AA       |
+|ecobee Inc.             |EBERS41                                                               |CR2477      |
+|ecobee Inc.             |EBRSE4                                                                |CR2032      |
+|Ecolink                 |DWZWAVE25                                                             |CR123A      |
+|Ecolink                 |TILT-ZWAVE2.5-ECO                                                     |CR123A      |
+|eQ-3                    |HM-CC-RT-DN                                                           |2x AA       |
+|eQ-3                    |HM-Dis-EP-WM55                                                        |2x AAA      |
+|eQ-3                    |HM-ES-TX-WM                                                           |4x AA       |
+|eQ-3                    |HM-Sec-RHS                                                            |2x LR44     |
+|eQ-3                    |HM-Sec-SCo                                                            |AAA         |
+|eQ-3                    |HM-TC-IT-WM-W-EU                                                      |2x AAA      |
+|eQ-3                    |HmIP-DLD                                                              |4x AA       |
+|eQ-3                    |HMIP-eTRV                                                             |2x AA       |
+|eQ-3                    |HMIP-eTRV-2                                                           |2x AA       |
+|eQ-3                    |HMIP-eTRV-B                                                           |2x AA       |
+|eQ-3                    |HMIP-eTRV-C                                                           |2x AA       |
+|eQ-3                    |HmIP-eTRV-CL                                                          |4x AA       |
+|eQ-3                    |HMIP-eTRV-E                                                           |2x AA       |
+|eQ-3                    |HmIP-KRCK                                                             |AAA         |
+|eQ-3                    |HmIP-SCI                                                              |2x AAA      |
+|eQ-3                    |HmIP-SLO                                                              |2x AA       |
+|eQ-3                    |HmIP-SMI                                                              |2x AA       |
+|eQ-3                    |HmIP-SMI55                                                            |2x AAA      |
+|eQ-3                    |HmIP-SMO                                                              |2x AA       |
+|eQ-3                    |HmIP-SRH                                                              |AAA         |
+|eQ-3                    |HmIP-STH                                                              |2x AAA      |
+|eQ-3                    |HmIP-SWDM                                                             |2x AAA      |
+|eQ-3                    |HMIP-SWDO                                                             |AAA         |
+|eQ-3                    |HMIP-SWDO-I                                                           |2x AAA      |
+|eQ-3                    |HMIP-SWDO-PL                                                          |2x AAA      |
+|eQ-3                    |HMIP-WRC2                                                             |2x AAA      |
+|eQ-3                    |HmIP-WRC6                                                             |2x AAA      |
+|eQ-3                    |HmIP-WRCD                                                             |2x AAA      |
+|eQ-3                    |HmIP-WTH-2                                                            |2x AAA      |
+|Eurotronics             |Spirit                                                                |2x AA       |
+|Eve Systems             |Eve Door 20EBN9901                                                    |ER14250     |
+|eWeLink                 |DS01                                                                  |CR2032      |
+|eWeLink                 |MS01                                                                  |CR2450      |
+|eWeLink                 |SNZB-02P                                                              |CR2477      |
+|eWeLink                 |TH01                                                                  |CR2450      |
+|Fantem                  |4 in 1 multi sensor (ZB003-X)                                         |2x CR123A   |
+|Fibargroup              |FGDW002                                                               |ER14250     |
+|Fibargroup              |FGK101                                                                |ER14250     |
+|Fibargroup              |FGMS001                                                               |CR123A      |
+|Fibargroup              |FGSD002                                                               |CR123A      |
+|frient                  |MOSZB-140                                                             |2x AA       |
+|frient A/S              |HESZB-120                                                             |CR123A      |
+|frient A/S              |SMSZB-120                                                             |CR123       |
+|GiEX                    |Water irrigation valve (QT06_2)                                       |4x AA       |
+|Google                  |KR1                                                                   |CR2         |
+|Google                  |Topaz-2.7                                                             |MANUAL      |
+|Govee                   |H5101/H5102/H5177                                                     |AAA         |
+|HANK Electronics Ltd.   |HKZW-DWS01                                                            |2x AAA      |
+|HEIMAN                  |Smart carbon monoxide sensor (HS1CA-E)                                |CR123A      |
+|HEIMAN                  |Smoke detector (HS1SA)                                                |CR123A      |
+|HEIMAN                  |Smoke detector (HS3SA/HS1SA)                                          |CR123A      |
+|Hive                    |Heating thermostat remote control (SLT3C)                             |4x AA       |
+|Hunter Douglas          |Duette                                                                |12x AA      |
+|IKEA                    |FYRTUR roller blind (E1757)                                           |Rechargeable|
+|IKEA                    |STYRBAR remote control (E2001/E2002)                                  |2x AAA      |
+|IKEA                    |SYMFONISK sound controller (E1744)                                    |CR2032      |
+|IKEA                    |TRADFRI motion sensor                                                 |2x CR2032   |
+|IKEA                    |TRADFRI motion sensor (E1525/E1745)                                   |2x CR2032   |
+|IKEA                    |TRADFRI ON/OFF switch (E1743)                                         |CR2032      |
+|IKEA                    |TRADFRI open/close remote (E1766)                                     |CR2032      |
+|IKEA                    |TRADFRI remote control (E1524/E1810)                                  |CR2032      |
+|IKEA                    |TRADFRI shortcut button (E1812)                                       |CR2032      |
+|IKEA of Sweden          |Remote Control N2                                                     |2x AAA      |
+|IKEA of Sweden          |RODRET Dimmer                                                         |AAA         |
+|IKEA of Sweden          |SYMFONISK Sound Controller                                            |CR2032      |
+|IKEA of Sweden          |TRADFRI motion sensor                                                 |2x CR2032   |
+|IKEA of Sweden          |TRADFRI ON/OFF switch                                                 |CR2032      |
+|IKEA of Sweden          |TRADFRI SHORTCUT Button                                               |CR2032      |
+|INKBIRD                 |IBS-TH                                                                |2x AAA      |
+|iNode                   |iNode Energy Meter                                                    |CR2032      |
+|iRobot                  |i715640                                                               |Rechargeable|
+|Konke                   |3AFE28010402000D                                                      |CR2450      |
+|Kwikset                 |HALO-01                                                               |4x AA       |
+|Kwikset                 |Kevo                                                                  |4x AA       |
+|Kwikset                 |SMARTCODE_DEADBOLT_10T                                                |4x AA       |
+|Lidl                    |HG06335/HG07310                                                       |MANUAL      |
+|Lidl                    |HG06336                                                               |2x AAA      |
+|Lidl                    |Silvercrest radiator valve with thermostat (368308_2010)              |2x AA       |
+|Lidl                    |Silvercrest smart motion sensor (HG06335/HG07310)                     |2x AAA      |
+|Lidl                    |Silvercrest smart motion sensor (HG06335/HG07310)                     |CR123A      |
+|Linkind                 |Door/window Sensor (ZS110050078)                                      |CR2032      |
+|Linkind                 |PIR motion sensor, wireless motion detector (ZS1100400-IN-V1A02)      |CR2450      |
+|Linkind                 |Security keypad battery (ZS130000078)                                 |2x CR123A   |
+|LUMI                    |lumi.airrtc.agl001                                                    |2x AA       |
+|LUMI                    |lumi.curtain.acn002                                                   |Rechargeable|
+|LUMI                    |lumi.remote.b1acn01                                                   |CR2032      |
+|LUMI                    |lumi.remote.b686opcn01                                                |CR2032      |
+|LUMI                    |lumi.sen_ill.mgl01                                                    |CR2450      |
+|LUMI                    |lumi.sensor_cube.aqgl01                                               |CR2450      |
+|LUMI                    |lumi.sensor_h1                                                        |CR2032      |
+|LUMI                    |lumi.sensor_magnet.aq2                                                |CR1632      |
+|LUMI                    |lumi.sensor_motion                                                    |CR2450      |
+|LUMI                    |lumi.sensor_motion.aq2                                                |CR2450      |
+|LUMI                    |lumi.sensor_switch.aq3                                                |CR2032      |
+|LUMI                    |lumi.sensor_wleak.aq1                                                 |CR2032      |
+|LUMI                    |lumi.vibration.aq1                                                    |CR2032      |
+|LUMI                    |lumi.weather                                                          |CR2032      |
+|Meross                  |ms100                                                                 |CR2477      |
+|Moes                    |Thermostatic radiator valve (BRT-100-TRV)                             |2x AA       |
+|Mopeka IOT              |M1015                                                                 |AAA-Lithium |
+|Mopeka IOT              |M1017                                                                 |CR2032      |
+|Neo                     |Temperature & humidity sensor and alarm (NAS-AB02B0)                  |2x CR123A   |
+|Netatmo                 |Additional Indoor Module                                              |4x AAA      |
+|Netatmo                 |Netatmo Valve                                                         |2x AA       |
+|Netatmo                 |Outdoor Module                                                        |2x AAA      |
+|Netatmo                 |Smart Anemometer                                                      |4x AA       |
+|Netatmo                 |Smart Indoor Module                                                   |2x AAA      |
+|Netatmo                 |Smart Outdoor Module                                                  |2x AAA      |
+|Netatmo                 |Smart Rain Gauge                                                      |2x AAA      |
+|Netatmo                 |Smart Thermostat                                                      |3x AAA      |
+|OpenEpaperLink          |ST‐GR16000 1.54                                                       |CR2450      |
+|OpenEpaperLink          |ST‐GR29000 2.9                                                        |2x CR2450   |
+|Oral-B                  |Genius X                                                              |Rechargeable|
+|Oral-B                  |IO Series 6/7                                                         |Rechargeable|
+|Oras                    |Electra Washbasin Faucet                                              |2CR5        |
+|Orbit BHyve             |HT25-0000                                                             |2x AA       |
+|ORVIBO                  |e70f96b3773a4c9283c6862dbafb6a99                                      |CR2032      |
+|OSRAM                   |Smart+ switch mini (AC0251100NJ/AC0251600NJ/AC0251700NJ)              |CR2450      |
+|Philips                 |Hue dimmer switch (324131092621)                                      |CR2450      |
+|Philips                 |Hue dimmer switch (929002398602)                                      |CR2450      |
+|Philips                 |Hue motion outdoor sensor (9290019758)                                |2x AA       |
+|Philips                 |Hue motion outdoor sensor (9290030674)                                |2x AA       |
+|Philips                 |Hue motion sensor (9290012607)                                        |2x AAA      |
+|Philips                 |Hue motion sensor (9290030675)                                        |2x AAA      |
+|Philips                 |Hue smart button (8718699693985)                                      |CR2032      |
+|Philips                 |Hue wall switch module (929003017102)                                 |CR2450      |
+|Philips                 |RWL021                                                                |CR2450      |
+|Philips                 |RWL022                                                                |CR2032      |
+|Ring                    |Contact Sensor                                                        |2x CR2032   |
+|Ring                    |Doorbell 2                                                            |Rechargeable|
+|Ring                    |Motion Sensor                                                         |2x AA       |
+|Ring                    |Security Keypad                                                       |Rechargeable|
+|Roborock                |roborock.vacuum.a15                                                   |Rechargeable|
+|rtl_433                 |Acurite-Tower                                                         |2x AA       |
+|Ruuvi                   |Ruuvitag                                                              |CR2477T     |
+|Samjin                  |motion                                                                |CR2         |
+|Samjin                  |multi                                                                 |CR2450      |
+|Samjin                  |water                                                                 |CR2         |
+|Saswell                 |Thermostatic radiator valve (SEA801-Zigbee/SEA802-Zigbee)             |2x AA       |
+|Shelly                  |Shelly Door/Window 2                                                  |2x CR123A   |
+|Shelly                  |Shelly Flood                                                          |CR123A      |
+|Shelly                  |Shelly H&T                                                            |CR123A      |
+|Signify Netherlands B.V.|Hue dimmer switch (RWL020)                                            |CR2450      |
+|Signify Netherlands B.V.|Hue dimmer switch (RWL021)                                            |CR2450      |
+|Signify Netherlands B.V.|Hue dimmer switch (RWL022)                                            |CR2032      |
+|Signify Netherlands B.V.|Hue motion sensor (SML001)                                            |2x AAA      |
+|Signify Netherlands B.V.|Hue motion sensor (SML003)                                            |2x AAA      |
+|Signify Netherlands B.V.|Hue outdoor motion sensor (SML002)                                    |2x AA       |
+|Signify Netherlands B.V.|Hue tap dial switch (RDM002)                                          |CR2032      |
+|Signify Netherlands B.V.|Hue wall switch module (RDM001)                                       |CR2450      |
+|Signify Netherlands B.V.|RDM001                                                                |CR2450      |
+|Signify Netherlands B.V.|RWL022                                                                |CR2032      |
+|Signify Netherlands B.V.|SML001                                                                |2x AAA      |
+|Signify Netherlands B.V.|SML002                                                                |2x AA       |
+|Signify Netherlands B.V.|SML003                                                                |2x AAA      |
+|Signify Netherlands B.V.|SML003                                                                |2x AAA      |
+|Siterwell               |Radiator valve with thermostat (GS361A-H04)                           |2x AA       |
+|SMaBiT (Bitron Video)   |Compact magnetic contact sensor (AV2010/21A)                          |CR2         |
+|SmartThings             |Button (IM6001-BTP01)                                                 |CR2450      |
+|SmartThings             |Motion sensor (2018 model) (IM6001-MTP01)                             |CR2         |
+|SmartThings             |Multipurpose sensor (2018 model) (IM6001-MPP01)                       |CR2450      |
+|Sonoff                  |Contact sensor (SNZB-04)                                              |CR2032      |
+|SONOFF                  |Motion sensor (SNZB-03)                                               |CR2450      |
+|Sonoff                  |SNZB-02                                                               |CR2450      |
+|Sonoff                  |Temperature and humidity sensor (SNZB-02)                             |CR2450      |
+|SONOFF                  |Temperature and humidity sensor with screen (SNZB-02D)                |CR2450      |
+|SONOFF                  |TRVZB                                                                 |3x AA       |
+|SONOFF                  |Wireless button (SNZB-01)                                             |CR2450      |
+|SONOFF                  |Zigbee thermostatic radiator valve (TRVZB)                            |3x AA       |
+|Sure Petcare            |Cat flap                                                              |4x AA       |
+|Sure Petcare            |Pet flap                                                              |4x C        |
+|SwitchBot               |W1101500                                                              |2x AAA      |
+|SwitchBot               |W1201500                                                              |2x AAA      |
+|SwitchBot               |W340001X                                                              |2x AAA      |
+|switchbot               |WoCurtain                                                             |Rechargeable|
+|switchbot               |woHand                                                                |CR2         |
+|switchbot               |WoIOSensorTH                                                          |2x AAA      |
+|Tado                    |RU01                                                                  |3x AAA      |
+|Tado                    |RU02                                                                  |3x AAA      |
+|Tado                    |SU02                                                                  |3x AAA      |
+|Tado                    |VA01                                                                  |2x AA       |
+|Tado                    |VA02                                                                  |2x AA       |
+|Third Reality           |Smart switch Gen3 (3RSS009Z)                                          |2x AAA      |
+|Third Reality, Inc      |3RDS17BZ                                                              |2x AAA      |
+|Third Reality, Inc      |3RSS009Z                                                              |2x AAA      |
+|Third Reality, Inc      |3RWS18BZ                                                              |2x AAA      |
+|TT Lock                 |SN511-180MS_PV53                                                      |4x AA       |
+|TUO Accessories LLC     |TUO Smart Button                                                      |CR2032      |
+|TuYa                    |Button scene switch (SH-SC07)                                         |CR2450      |
+|TuYa                    |Door sensor (TS0203)                                                  |CR2032      |
+|TuYa                    |Door sensor (ZD08)                                                    |CR2032      |
+|TuYa                    |IH012-RT01                                                            |CR2450      |
+|TuYa                    |Luminance door sensor (ZG-102ZL)                                      |CR2032      |
+|TuYa                    |Luminance motion sensor (ZG-204ZL)                                    |CR2450      |
+|TuYa                    |Motion sensor (IH012-RT01)                                            |CR2450      |
+|TuYa                    |Smart knob (ERS-10TZBVK-AA)                                           |CR2032      |
+|TuYa                    |Smoke sensor (TS0601_smoke_1)                                         |2x AAA      |
+|TuYa                    |Soil sensor (TS0601_soil)                                             |2x AA       |
+|TuYa                    |Temperature & humidity sensor (IH-K009)                               |CR2450      |
+|TuYa                    |Temperature & humidity sensor (WSD500A)                               |2x AAA      |
+|TuYa                    |Temperature & humidity sensor with display (TS0201)                   |2x AAA      |
+|TuYa                    |Temperature and humidity sensor (TH02Z)                               |2x AAA      |
+|TuYa                    |Temperature and humidity sensor (ZTH05)                               |CR2032      |
+|TuYa                    |TS0203                                                                |CR2032      |
+|TuYa                    |TS0601_smoke_1                                                        |2x AAA      |
+|TuYa                    |Water leak detector (TS0207_water_leak_detector)                      |2x AAA      |
+|TuYa                    |Wireless switch with 4 buttons (TS0044)                               |CR2430      |
+|TuYa                    |Zigbee water leak sensor (TS0207_water_leak_detector_2)               |CR2032      |
+|VictorPest.com          |Rat Trap                                                              |4x C        |
+|Xiaomi                  |Aqara D1 double key wireless wall switch (WXKG07LM)                   |CR2032      |
+|Xiaomi                  |Aqara D1 single key wireless wall switch (WXKG06LM)                   |CR2032      |
+|Xiaomi                  |Aqara door & window contact sensor (MCCGQ11LM)                        |CR1632      |
+|Xiaomi                  |Aqara double key wireless wall switch (2016 model) (WXKG02LM_rev1)    |CR2032      |
+|Xiaomi                  |Aqara E1 door & window contact sensor (MCCGQ14LM)                     |CR1632      |
+|Xiaomi                  |Aqara E1 double key wireless switch (WXKG17LM)                        |CR2032      |
+|Xiaomi                  |Aqara E1 human body movement and illuminance sensor (RTCGQ15LM)       |CR2450      |
+|Xiaomi                  |Aqara E1 wireless mini switch (WXKG20LM)                              |CR2032      |
+|Xiaomi                  |Aqara human body movement and illuminance sensor (RTCGQ11LM)          |CR2450      |
+|Xiaomi                  |Aqara Opple switch 2 bands (WXCJKG12LM)                               |CR2032      |
+|Xiaomi                  |Aqara Opple switch 3 bands (WXCJKG13LM)                               |CR2032      |
+|Xiaomi                  |Aqara P1 human body movement and illuminance sensor (RTCGQ14LM)       |2x CR2450   |
+|Xiaomi                  |Aqara single key wireless wall switch (2016 model) (WXKG03LM_rev1)    |CR2032      |
+|Xiaomi                  |Aqara single key wireless wall switch (2018 model) (WXKG03LM_rev2)    |CR2032      |
+|Xiaomi                  |Aqara Smart Radiator Thermostat E1 (SRTS-A01)                         |2x AA       |
+|Xiaomi                  |Aqara T1 light intensity sensor (GZCGQ11LM)                           |CR2450      |
+|Xiaomi                  |Aqara temperature, humidity and pressure sensor (WSDCGQ11LM)          |CR2032      |
+|Xiaomi                  |Aqara TVOC air quality monitor (VOCKQJK11LM)                          |2x CR2450   |
+|Xiaomi                  |Aqara vibration sensor (DJT11LM)                                      |CR2032      |
+|Xiaomi                  |Aqara water leak sensor (SJCGQ11LM)                                   |CR2032      |
+|Xiaomi                  |Aqara wireless remote switch E1 (single rocker) (WXKG16LM)            |CR2032      |
+|Xiaomi                  |Aqara wireless switch (with gyroscope) (WXKG12LM)                     |CR2032      |
+|Xiaomi                  |Aqara wireless switch (WXKG11LM)                                      |CR2032      |
+|Xiaomi                  |ble LYWSD03MMC                                                        |CR2032      |
+|Xiaomi                  |ble MCCGQ02HL                                                         |CR2032      |
+|Xiaomi                  |ble MJYD02YL-A                                                        |3x AAA      |
+|Xiaomi                  |ble RTCGQ02LM                                                         |CR2450      |
+|Xiaomi                  |ble XMPIR02SXS                                                        |CR2450      |
+|Xiaomi                  |ble XMWSDJ04MMC                                                       |CR2450      |
+|Xiaomi                  |GZCGQ01LM                                                             |CR2450      |
+|Xiaomi                  |HHCCJCY01                                                             |CR2032      |
+|Xiaomi                  |LYWSD03MMC                                                            |CR2032      |
+|Xiaomi                  |LYWSD03MMC/MJWSD05MMC_PVVX                                            |CR2032      |
+|Xiaomi                  |LYWSDCGQ                                                              |AAA         |
+|Xiaomi                  |MCCGQ01LM                                                             |CR1632      |
+|Xiaomi                  |Mi/Aqara smart home cube (MFKZQ01LM)                                  |CR2450      |
+|Xiaomi                  |MiJia door & window contact sensor (MCCGQ01LM)                        |CR1632      |
+|Xiaomi                  |MiJia Honeywell smoke detector (JTYJ-GD-01LM/BW)                      |2x CR123A   |
+|Xiaomi                  |MiJia human body movement sensor (RTCGQ01LM)                          |CR2450      |
+|Xiaomi                  |MiJia light intensity sensor (GZCGQ01LM)                              |CR2450      |
+|Xiaomi                  |MiJia temperature & humidity sensor (WSDCGQ01LM)                      |CR2032      |
+|Xiaomi                  |MiJia wireless switch (WXKG01LM)                                      |CR2032      |
+|Xiaomi                  |RTCGQ01LM                                                             |CR2450      |
+|Xiaomi                  |SRTS-A01                                                              |2x AA       |
+|Xiaomi                  |WSDCGQ01LM                                                            |CR2032      |
+|Xiaomi                  |XMTZC02HM/XMTZC05HM/NUN4049CN                                         |4x AAA      |
+|Xiaomi                  |XMWSDJ04MMC                                                           |CR2450      |
+|Xiaomi                  |zigbee RTCGQ11LM (lumi.sensor_motion.aq2)                             |CR2450      |
+|Yale                    |YRD220/240 TSDB                                                       |4x AA       |
+|YoLink                  |DoorSensor                                                            |2x AAA      |
+|YoLink                  |MotionSensor                                                          |2x AAA      |
+|Zooz                    |ZEN34                                                                 |2x AAA      |
+|Zooz                    |ZSE40 700                                                             |CR123A      |
+|Zooz                    |ZSE41                                                                 |CR2032      |
+|Zooz                    |ZSE42                                                                 |CR2032      |
