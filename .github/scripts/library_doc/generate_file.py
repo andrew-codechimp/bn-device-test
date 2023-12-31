@@ -44,8 +44,8 @@ def generate_device_list():
         rows.append(row)
 
     writer.value_matrix = rows
-    tables_output += f"\n## {num_devices} Devices in library\n##\n\n"
-    tables_output += "\nThis file is auto generated, do not modify\n\n"
+    tables_output += f"## {num_devices} Devices in library##\n\n"
+    tables_output += "This file is auto generated, do not modify\n\n"
     tables_output += writer.dumps()
 
     with open("library.md", "w", encoding="UTF-8") as md_file:
