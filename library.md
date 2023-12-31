@@ -8,7 +8,7 @@ This file is auto generated, do not modify
 |_TZ3000_6ygjfyll            |TS0202                                                                |CR2450      |
 |_TZ3000_dowj6gyi            |TS0201                                                                |CR2450      |
 |_TZ3000_fllyghyj            |TS0201                                                                |2x AAA      |
-|_TZ3000_k4ej3ww2            |TS0207                                                                |CR2032      |
+|_TZ3000_k4ej3ww2            |TS0207                                                                |10x PP3     |
 |_TZ3000_k4ej3ww2            |TS0207                                                                |CR2032      |
 |_TZ3000_lf56vpxj            |TS0202                                                                |2x AAA      |
 |_TZ3000_wkai4ga5            |TS0044                                                                |CR2430      |
