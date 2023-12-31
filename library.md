@@ -1,7 +1,4 @@
-
-## 329 Devices in library
-##
-
+## 329 Devices in library##
 
 This file is auto generated, do not modify
 
