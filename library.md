@@ -1,6 +1,9 @@
 
 ## 329 Devices in library
-####
+##
+
+
+This file is auto generated, do not modify
 
 |        Manufacturer        |                                Model                                 |Battery Type|
 |----------------------------|----------------------------------------------------------------------|------------|
