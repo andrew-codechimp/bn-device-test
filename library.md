@@ -1,4 +1,4 @@
-## 329 Devices in library
+## 330 Devices in library
 
 This file is auto generated, do not modify
 
@@ -40,6 +40,7 @@ This file is auto generated, do not modify
 |CentraLite                  |3315-S                                                                |CR2         |
 |CentraLite                  |3320-L                                                                |CR2         |
 |CentraLite                  |3326-L                                                                |CR2         |
+|ChimpCo                     |Test01                                                                |2x AA       |
 |Custom devices (DiY)        |Xiaomi temperature & humidity sensor with custom firmware (LYWSD03MMC)|CR2032      |
 |Danfoss                     |010101                                                                |2x AA       |
 |Danfoss                     |eTRV0100                                                              |2x AA       |
