@@ -1,4 +1,4 @@
-name: JSON Library Sorter
+name: JSON Library Sorter and Doc Gen
 
 on:
   workflow_dispatch:
@@ -40,4 +40,14 @@ jobs:
             with open("custom_components/battery_notes/data/library.json", "w", encoding="UTF-8") as f:
                 f.write(json.dumps(devices_json, indent=4))
 
+      # Generate library doc
+      - name: Install dependencies
+        run: |
+          python -m pip install -r ${{ github.workspace }}/.github/scripts/library_doc/requirements.txt
+
+      - name: Generate Library Doc
+        run: |
+          python3 ${{ github.workspace }}/.github/scripts/library_doc/generate_file.py
+
+      # Commit
       - uses: stefanzweifel/git-auto-commit-action@v5
