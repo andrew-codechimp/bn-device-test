@@ -6,6 +6,7 @@ on:
     paths:
       - 'custom_components/battery_notes/data/library.json'
       - '.github/workflows/json_library_sort_doc.yml'
+      - '.github/workflows/scripts/library_doc/**'
 
 jobs:
   sort-library-json:
