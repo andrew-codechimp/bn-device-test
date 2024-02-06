@@ -672,6 +672,11 @@
             "battery_type": "CR2450"
         },
         {
+            "manufacturer": "ChimpCo",
+            "model": "EX4",
+            "battery_type": "PP3"
+        },
+        {
             "manufacturer": "Computime",
             "model": "SLT3",
             "battery_type": "AA",
@@ -3817,11 +3822,6 @@
             "manufacturer": "Zooz",
             "model": "ZSE44",
             "battery_type": "CR2450"
-        },
-        {
-            "manufacturer": "ChimpCo",
-            "model": "EX4",
-            "battery_type": "PP3"
         }
     ]
 }
