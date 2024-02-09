@@ -11,18 +11,6 @@ on:
       - 'custom_components/battery_notes/data/library.json'
       - '.github/workflows/json_validate.yml'
 
-# jobs:
-#   verify-json-validation:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v4
-#       - name: Validate JSON
-#         uses: ScratchAddons/validate-json-action@master
-#         env:
-#           schema: custom_components/battery_notes/schema.json
-#           jsons: custom_components/battery_notes/data/library.json
-#           separator: '\n'
-
 jobs:
   verify-json-validation:
     runs-on: ubuntu-latest
