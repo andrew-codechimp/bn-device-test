@@ -32,6 +32,10 @@
                         "type": "string",
                         "description": "The model of the device as it appears in Home Assistant."
                     },
+                    "hw_version": {
+                        "type": "string",
+                        "description": "The hardware version of the device as it appears in Home Assistant. Only required where two versions of a model."
+                    },
                     "battery_type": {
                         "type": "string",
                         "description": "The type of battery for the device. Should be the most common naming for general batteries, and the IEC naming for battery cells according to Wikipedia."
