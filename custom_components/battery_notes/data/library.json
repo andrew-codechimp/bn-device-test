@@ -679,6 +679,7 @@
         {
             "manufacturer": "ChimpCo",
             "model": "Model HW test",
+            "hw_version": "SOMFY: Weird",
             "battery_type": "AA"
         },
         {
