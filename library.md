@@ -1,4 +1,4 @@
-## 706 Devices in library
+## 707 Devices in library
 
 This file is auto generated, do not modify
 
@@ -128,6 +128,7 @@ This file is auto generated, do not modify
 |CentraLite                                      |3326-L                                                                |CR2                       |
 |CentraLite                                      |3450-L                                                                |CR2450                    |
 |ChimpCo                                         |EX4                                                                   |PP3                       |
+|ChimpCo                                         |Model HW test                                                         |AA                        |
 |Computime                                       |SLT3                                                                  |4x AA                     |
 |Computime                                       |SS909ZB                                                               |CR2                       |
 |CPS                                             |CP1500AVRLCDa                                                         |Rechargeable              |
