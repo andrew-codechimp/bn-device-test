@@ -65,13 +65,12 @@ jobs:
             set_output("mm", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']}{new_device['model']})".lower())))
             set_output("manufacturer", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']})")))
             set_output("model", "_".join(re.findall(r"\w+",f"{new_device['model']})")))
-            set_output("bqt", f"{battery_quantity}x {new_device['battery_type']}")
-            
-            if duplicate_found:
-              set_output("mode", "Updates")
-            else:
-              set_output("mode", "Adds")
+            set_output("bqt", f"{numeric_quantity}x {new_device['battery_type']}")
 
+            if duplicate_found:
+              set_output("mode", "updates")
+            else:
+              set_output("mode", "adds")            
 
             with open("custom_components/battery_notes/data/library.json", "w") as f:
               f.write(json.dumps(devices_json, indent=4))
@@ -87,13 +86,13 @@ jobs:
             }'
 
       - name: Validate JSON
-        uses: dsanders11/json-schema-validate-action@v1.1.0
-        with:
-          schema: custom_components/battery_notes/schema.json
-          files: custom_components/battery_notes/data/library.json
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: custom_components/battery_notes/schema.json
+          INPUT_JSONS: custom_components/battery_notes/data/library.json
 
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v5
+        uses: peter-evans/create-pull-request@v6
         with:
           commit-message: "Update device: ${{ steps.update-json.outputs.model }} by ${{ steps.update-json.outputs.manufacturer }}"
           title: "Device: ${{ steps.update-json.outputs.manufacturer }} - ${{ steps.update-json.outputs.model }}"
@@ -104,4 +103,3 @@ jobs:
         run: gh issue close --comment "Thanks for the contribution. We're auto-closing this issue. If it's a new device, a pull request will be created that will be reviewed and merged." ${{github.event.issue.number}}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-          
