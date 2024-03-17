@@ -4,7 +4,7 @@ This file is auto generated, do not modify
 
 |                  Manufacturer                  |                                Model                                 |       Battery Type       |
 |------------------------------------------------|----------------------------------------------------------------------|--------------------------|
-|_TYZB01_7qf81wty                                |TS1001                                                                |2x AAA                    |
+|_TYZB01_7qf81wty                                |TS1001                                                                |AAA                       |
 |_TZ1800_fcdjzz3s                                |TY0202                                                                |2x AA                     |
 |_TZ2000_a476raq2                                |TS0201                                                                |2x AAA                    |
 |_TZ3000_1bwpjvlz                                |TS0203                                                                |CR2032                    |
