@@ -5,11 +5,11 @@ on:
   push:
     paths:
       - 'custom_components/battery_notes/data/library.json'
-      - '.github/workflows/json_library_sort_doc.yml'
+      - '.github/workflows/json_librarian.yml'
       - '.github/workflows/scripts/library_doc/**'
 
 jobs:
-  sort-library-json:
+  librarian:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -30,26 +30,24 @@ jobs:
         with:
           script: |
             import json
-            
+
             # Load the existing JSON library file
             with open("custom_components/battery_notes/data/library.json", "r", encoding="UTF-8") as f:
                 devices_json = json.loads(f.read())
                 devices = devices_json.get("devices")
-            
+
             # Sort the devices by manufacturer and model
-            devices.sort(key=lambda k: (k["manufacturer"].lower(), k["model"].lower()))
-            
+            devices.sort(key=lambda k: (k["manufacturer"].lower(), k["model"].lower(), k.get("model_id", "").lower(), k.get("hw_version", "").lower()))
             with open("custom_components/battery_notes/data/library.json", "w", encoding="UTF-8") as f:
                 f.write(json.dumps(devices_json, indent=4))
 
-      # Generate library doc
-      - name: Install dependencies
+      - name: Install library doc generator dependencies
         run: |
           python -m pip install -r ${{ github.workspace }}/.github/scripts/library_doc/requirements.txt
 
-      - name: Generate Library Doc
+      - name: Generate library doc
         run: |
           python3 ${{ github.workspace }}/.github/scripts/library_doc/generate_file.py
 
-      # Commit
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Commit any changes
+        uses: stefanzweifel/git-auto-commit-action@v5

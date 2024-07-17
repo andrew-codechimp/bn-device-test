@@ -14,7 +14,7 @@ jobs:
 
       - name: Parse device data
         id: device-data
-        uses: issue-ops/parser@v0
+        uses: issue-ops/parser@v1
         with:
           body: ${{ github.event.issue.body }}
           issue-form-template: new_device_request.yml
@@ -43,7 +43,7 @@ jobs:
             # Remove the "battery_quantity" key from the device dictionary if it's 1
             new_device = ${{ steps.device-data.outputs.json }}
             # Convert battery_quantity field to a numeric
-            numeric_quantity = int(new_device["battery_quantity"]) 
+            numeric_quantity = int(new_device["battery_quantity"])
             del new_device["battery_quantity"]
             # Add  numeric "battery_quantity" key if it's more than 1
             if numeric_quantity > 1:
@@ -65,12 +65,14 @@ jobs:
             set_output("mm", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']}{new_device['model']})".lower())))
             set_output("manufacturer", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']})")))
             set_output("model", "_".join(re.findall(r"\w+",f"{new_device['model']})")))
+            set_output("model_id", "_".join(re.findall(r"\w+",f"{new_device['model_id']})")))
+            set_output("hw_version", "_".join(re.findall(r"\w+",f"{new_device['hw_version']})")))
             set_output("bqt", f"{numeric_quantity}x {new_device['battery_type']}")
 
             if duplicate_found:
               set_output("mode", "updates")
             else:
-              set_output("mode", "adds")            
+              set_output("mode", "adds")
 
             with open("custom_components/battery_notes/data/library.json", "w") as f:
               f.write(json.dumps(devices_json, indent=4))
@@ -96,10 +98,10 @@ jobs:
         with:
           commit-message: "Update device: ${{ steps.update-json.outputs.model }} by ${{ steps.update-json.outputs.manufacturer }}"
           title: "Device: ${{ steps.update-json.outputs.manufacturer }} - ${{ steps.update-json.outputs.model }}"
-          body: "This pull request ${{ steps.update-json.outputs.mode }} the device information for ${{ steps.update-json.outputs.model }} by ${{ steps.update-json.outputs.manufacturer }} with ${{ steps.update-json.outputs.bqt }}\nIt closes issue #${{ github.event.issue.number }}"
+          body: "This pull request ${{ steps.update-json.outputs.mode }} the device information for ${{ steps.update-json.outputs.model }} ${{ steps.update-json.outputs.model_id }} ${{ steps.update-json.outputs.hw_version }}by ${{ steps.update-json.outputs.manufacturer }} with ${{ steps.update-json.outputs.bqt }}\nIt closes issue #${{ github.event.issue.number }}"
           branch: "device-${{ steps.update-json.outputs.mm }}"
 
       - name: Close Issue
         run: gh issue close --comment "Thanks for the contribution. We're auto-closing this issue. If it's a new device, a pull request will be created that will be reviewed and merged." ${{github.event.issue.number}}
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
