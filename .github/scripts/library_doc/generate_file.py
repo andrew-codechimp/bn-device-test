@@ -43,7 +43,7 @@ def generate_device_list():
         row = [
             device["manufacturer"],
             device["model"],
-            device.get("model_if", ""),
+            device.get("model_id", ""),
             device.get("hw_version", ""),
             battery_type_qty,
         ]

@@ -42,6 +42,15 @@ body:
       required: false
 
   - type: input
+    id: hw-version
+    attributes:
+      label: HW Version
+      description: If the device has a HW Version in the Devices screen within Home Assistant it must be included.
+      placeholder: ex. V7.2
+    validations:
+      required: false      
+
+  - type: input
     id: battery-type
     attributes:
       label: Battery Type
