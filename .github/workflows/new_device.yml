@@ -62,7 +62,7 @@ jobs:
               devices.append(new_device)
 
             # Save manufacturer and model for later use
-            set_output("mm", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']}{new_device['model']})".lower())))
+            set_output("branch", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']}{new_device['model']}{new_device['model_id']}{new_device['hw_version']})".lower())))
             set_output("manufacturer", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']})")))
             set_output("model", "_".join(re.findall(r"\w+",f"{new_device['model']})")))
             set_output("model_id", "_".join(re.findall(r"\w+",f"{new_device['model_id']})")))
@@ -98,8 +98,15 @@ jobs:
         with:
           commit-message: "Update device: ${{ steps.update-json.outputs.model }} by ${{ steps.update-json.outputs.manufacturer }}"
           title: "Device: ${{ steps.update-json.outputs.manufacturer }} - ${{ steps.update-json.outputs.model }}"
-          body: "This pull request ${{ steps.update-json.outputs.mode }} the device information for ${{ steps.update-json.outputs.model }} ${{ steps.update-json.outputs.model_id }} ${{ steps.update-json.outputs.hw_version }}by ${{ steps.update-json.outputs.manufacturer }} with ${{ steps.update-json.outputs.bqt }}\nIt closes issue #${{ github.event.issue.number }}"
-          branch: "device-${{ steps.update-json.outputs.mm }}"
+          body: |
+            This pull request ${{ steps.update-json.outputs.mode }} the device information for:
+            Manufacturer: ${{ steps.update-json.outputs.manufacturer }}
+            Model: ${{ steps.update-json.outputs.model }}
+            Model ID: ${{ steps.update-json.outputs.model_id }} 
+            HW Version: ${{ steps.update-json.outputs.hw_version }}
+            Battery: ${{ steps.update-json.outputs.bqt }}
+            It closes issue #${{ github.event.issue.number }}
+          branch: "device-${{ steps.update-json.outputs.branch }}"
 
       - name: Close Issue
         run: gh issue close --comment "Thanks for the contribution. We're auto-closing this issue. If it's a new device, a pull request will be created that will be reviewed and merged." ${{github.event.issue.number}}
