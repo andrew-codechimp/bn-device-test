@@ -1,4 +1,4 @@
-## 709 Devices in library
+## 710 Devices in library
 
 This file is auto generated, do not modify
 
@@ -531,6 +531,7 @@ Request new devices to be added to the library [here](https://github.com/andrew-
 |Tado                                            |SU02                                                                  |        |            |3× AAA                    |
 |Tado                                            |VA01                                                                  |        |            |2× AA                     |
 |Tado                                            |VA02                                                                  |        |            |2× AA                     |
+|Test                                            |Dimmer                                                                |        |            |PP3                       |
 |ThermoBeacon                                    |27                                                                    |        |            |CR2477                    |
 |Third Reality                                   |Smart switch Gen3 (3RSS009Z)                                          |        |            |2× AAA                    |
 |Third Reality, Inc                              |3RDS17BZ                                                              |        |            |2× AAA                    |
