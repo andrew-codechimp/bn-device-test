@@ -3843,6 +3843,13 @@
             "manufacturer": "Zooz",
             "model": "ZSE44",
             "battery_type": "CR2450"
+        },
+        {
+            "manufacturer": "AJ Co",
+            "model": "Something",
+            "model_id": "",
+            "hw_version": "",
+            "battery_type": "AAA"
         }
     ]
 }
