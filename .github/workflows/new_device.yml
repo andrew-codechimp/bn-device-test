@@ -56,7 +56,7 @@ jobs:
             # Check for duplicates and replace old entry with new one
             duplicate_found = False
             for i, device in enumerate(devices):
-              if device["manufacturer"] == new_device["manufacturer"] and device["model"] == new_device["model"] and device["model_id"] == new_device["model_id"] and device["hw_version"] == new_device["hw_version"]:
+              if device["manufacturer"] == new_device["manufacturer"] and device["model"] == new_device["model"] and device.get("model_id", "") == new_device.get("model_id", "") and device.get("hw_version", "") == new_device.get("hw_version", ""):
                 devices[i] = new_device
                 duplicate_found = True
                 break
