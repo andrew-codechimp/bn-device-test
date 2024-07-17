@@ -361,6 +361,13 @@
         {
             "manufacturer": "AJ Co",
             "model": "Dimmer",
+            "hw_version": "V4",
+            "battery_type": "PP3",
+            "battery_quantity": 6
+        },
+        {
+            "manufacturer": "AJ Co",
+            "model": "Dimmer",
             "model_id": "X5",
             "hw_version": "V2",
             "battery_type": "AA",
@@ -3856,13 +3863,6 @@
             "manufacturer": "Zooz",
             "model": "ZSE44",
             "battery_type": "CR2450"
-        },
-        {
-            "manufacturer": "AJ Co",
-            "model": "Dimmer",
-            "hw_version": "V4",
-            "battery_type": "PP3",
-            "battery_quantity": 6
         }
     ]
 }

@@ -1,4 +1,4 @@
-## 711 Devices in library
+## 712 Devices in library
 
 This file is auto generated, do not modify
 
@@ -71,6 +71,7 @@ Request new devices to be added to the library [here](https://github.com/andrew-
 |Airthings AS                                    |Wave Plus                                                             |        |            |2× AA                     |
 |Airthings AS                                    |Wave Radon                                                            |        |            |2× AA                     |
 |AJ Co                                           |ABC1                                                                  |X1      |V2          |2× PP3                    |
+|AJ Co                                           |Dimmer                                                                |        |V4          |6× PP3                    |
 |AJ Co                                           |Dimmer                                                                |X5      |V2          |2× AA                     |
 |AJ Co                                           |XX1                                                                   |ABC     |V1          |PP3                       |
 |Alarm.com                                       |n/a                                                                   |        |            |CR123A                    |
