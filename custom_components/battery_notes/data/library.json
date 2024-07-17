@@ -355,8 +355,7 @@
             "model": "ABC1",
             "model_id": "X1",
             "hw_version": "V2",
-            "battery_type": "PP3",
-            "battery_quantity": 2
+            "battery_type": "PP3"
         },
         {
             "manufacturer": "AJ Co",
