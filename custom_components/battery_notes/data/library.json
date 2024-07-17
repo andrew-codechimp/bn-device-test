@@ -3856,6 +3856,13 @@
             "manufacturer": "Zooz",
             "model": "ZSE44",
             "battery_type": "CR2450"
+        },
+        {
+            "manufacturer": "AJ Co",
+            "model": "Dimmer",
+            "hw_version": "V4",
+            "battery_type": "PP3",
+            "battery_quantity": 6
         }
     ]
 }
