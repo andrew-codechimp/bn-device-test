@@ -1,4 +1,4 @@
-## 708 Devices in library
+## 709 Devices in library
 
 This file is auto generated, do not modify
 
@@ -70,6 +70,7 @@ Request new devices to be added to the library [here](https://github.com/andrew-
 |Airthings                                       |View Radon                                                            |        |            |6× AA                     |
 |Airthings AS                                    |Wave Plus                                                             |        |            |2× AA                     |
 |Airthings AS                                    |Wave Radon                                                            |        |            |2× AA                     |
+|AJ Co                                           |ABC1                                                                  |X1      |V2          |2× PP3                    |
 |AJ Co                                           |XX1                                                                   |ABC     |V1          |PP3                       |
 |Alarm.com                                       |n/a                                                                   |        |            |CR123A                    |
 |Aldi                                            |MEGOS switch and dimming light remote control (141L100RC)             |        |            |CR2450                    |
