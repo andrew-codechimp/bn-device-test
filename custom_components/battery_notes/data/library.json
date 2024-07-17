@@ -3828,6 +3828,13 @@
             "manufacturer": "Zooz",
             "model": "ZSE44",
             "battery_type": "CR2450"
+        },
+        {
+            "manufacturer": "AJ Co",
+            "model": "XX1",
+            "model_id": "ABC",
+            "hw_version": "V1",
+            "battery_type": "PP3"
         }
     ]
 }
