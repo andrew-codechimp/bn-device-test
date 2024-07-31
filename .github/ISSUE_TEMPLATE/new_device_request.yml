@@ -44,8 +44,8 @@ body:
   - type: input
     id: hw_version
     attributes:
-      label: Hardware
-      description: If the device has a Hardware shown in the Devices screen within Home Assistant it must be included.
+      label: HW Version
+      description: If the device has a Hardware version shown in the Devices screen within Home Assistant it must be included.
       placeholder: ex. V7.2
     validations:
       required: false
