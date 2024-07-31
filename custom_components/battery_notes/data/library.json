@@ -387,7 +387,8 @@
         {
             "manufacturer": "Aldi",
             "model": "MEGOS switch and dimming light remote control (141L100RC)",
-            "battery_type": "CR2450"
+            "hardware": "",
+            "battery_type": "CR2042"
         },
         {
             "manufacturer": "Alecto",
