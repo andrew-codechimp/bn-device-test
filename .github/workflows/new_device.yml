@@ -51,7 +51,7 @@ jobs:
             if new_device.get("model_id", "MISSING").strip() == "":
               del new_device["model_id"]
             if new_device.get("hw_version", "MISSING").strip() == "":
-              del new_device["hw_version"]              
+              del new_device["hw_version"]         
 
             # Check for duplicates and replace old entry with new one
             duplicate_found = False
