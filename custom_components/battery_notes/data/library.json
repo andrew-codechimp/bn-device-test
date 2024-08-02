@@ -361,18 +361,18 @@
         {
             "manufacturer": "AJ Co",
             "model": "Dimmer",
-            "hw_version": "V4",
-            "battery_type": "PP3",
-            "battery_quantity": 6,
-            "model_match_method": "contains"
-        },
-        {
-            "manufacturer": "AJ Co",
-            "model": "Dimmer",
             "model_id": "X5",
             "hw_version": "V2",
             "battery_type": "AA",
             "battery_quantity": 2
+        },
+        {
+            "manufacturer": "AJ Co",
+            "model": "Dimmer",
+            "hw_version": "V4",
+            "battery_type": "PP3",
+            "battery_quantity": 6,
+            "model_match_method": "contains"
         },
         {
             "manufacturer": "AJ Co",
