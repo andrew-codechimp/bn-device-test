@@ -43,11 +43,11 @@ def generate_device_list():
         model = device["model"]
         model_match_method = device.get("model_match_method", "")
         if model_match_method == "startswith":
-            model = f"\*{model}"
+            model = rf"\*{model}"
         if model_match_method == "endswith":
-            model = f"{model}\*"
+            model = rf"{model}\*"
         if model_match_method == "contains":
-            model = f"\*{model}\*"
+            model = rf"\*{model}\*"
 
         row = [
             device["manufacturer"],
