@@ -363,7 +363,8 @@
             "model": "Dimmer",
             "hw_version": "V4",
             "battery_type": "PP3",
-            "battery_quantity": 6
+            "battery_quantity": 6,
+            "model_match_method": "contains"
         },
         {
             "manufacturer": "AJ Co",
@@ -378,7 +379,8 @@
             "model": "XX1",
             "model_id": "ABC",
             "hw_version": "V1",
-            "battery_type": "PP3"
+            "battery_type": "PP3",
+            "model_match_method": "endswith"
         },
         {
             "manufacturer": "Alarm.com",
