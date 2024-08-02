@@ -70,10 +70,10 @@ Request new devices to be added to the library [here](https://github.com/andrew-
 |Airthings                                       |View Radon                                                            |        |            |6× AA                     |
 |Airthings AS                                    |Wave Plus                                                             |        |            |2× AA                     |
 |Airthings AS                                    |Wave Radon                                                            |        |            |2× AA                     |
-|AJ Co                                           |ABC\*                                                                 |X1      |V2          |PP3                       |
-|AJ Co                                           |\*Dimmer\*                                                            |        |V4          |6× PP3                    |
 |AJ Co                                           |Dimmer                                                                |X5      |V2          |2× AA                     |
+|AJ Co                                           |\*Dimmer\*                                                            |        |V4          |6× PP3                    |
 |AJ Co                                           |\*XX1                                                                 |ABC     |V1          |PP3                       |
+|AJ Co                                           |ABC\*                                                                 |X1      |V2          |PP3                       |
 |Alarm.com                                       |n/a                                                                   |        |            |CR123A                    |
 |Aldi                                            |MEGOS switch and dimming light remote control (141L100RC)             |        |            |CR2450                    |
 |Alecto                                          |Smoke detector (SMART-SMOKE10)                                        |        |            |2× AA                     |
@@ -84,7 +84,6 @@ Request new devices to be added to the library [here](https://github.com/andrew-
 |American Power Conversion                       |Back-UPS XS 1500M                                                     |        |            |Rechargeable              |
 |APC                                             |Back-UPS XS 1500M                                                     |        |            |Rechargeable              |
 |APC                                             |SRV 2K I -AR                                                          |        |            |APCRBCV204                |
-|Apple                                           |iPad\*                                                                |        |            |Rechargeable              |
 |Apple                                           |iPad14,3                                                              |        |            |Rechargeable              |
 |Apple                                           |iPad6,11                                                              |        |            |Rechargeable              |
 |Apple                                           |iPad8,1                                                               |        |            |Rechargeable              |
@@ -93,6 +92,7 @@ Request new devices to be added to the library [here](https://github.com/andrew-
 |Apple                                           |iPhone14,7                                                            |        |            |Rechargeable              |
 |Apple                                           |iPhone16,2                                                            |        |            |Rechargeable              |
 |Apple                                           |MacBookPro18,1                                                        |        |            |Rechargeable              |
+|Apple                                           |iPad\*                                                                |        |            |Rechargeable              |
 |Aqara                                           |Aqara Door and Window Sensor P2                                       |        |            |CR123A                    |
 |Aqara                                           |Door and window sensor (MCCGQ11LM)                                    |        |            |CR1632                    |
 |Aqara                                           |Smart smoke detector (JY-GZ-01AQ)                                     |        |            |CR17450                   |
