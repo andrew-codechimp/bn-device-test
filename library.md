@@ -4,7 +4,7 @@ This file is auto generated, do not modify
 
 Request new devices to be added to the library [here](https://github.com/andrew-codechimp/HA-Battery-Notes/issues/new?template=new_device_request.yml&title=%5BDevice%5D%3A+)
 
-|                  Manufacturer                  |                                Model                                 |Model ID| HW Version |       Battery Type       |
+|                  Manufacturer                  |                                Model                                 |Model ID|  Hardware  |       Battery Type       |
 |------------------------------------------------|----------------------------------------------------------------------|--------|------------|--------------------------|
 |_TYZB01_7qf81wty                                |TS1001                                                                |        |            |2× AAA                    |
 |_TZ1800_fcdjzz3s                                |TY0202                                                                |        |            |2× AA                     |
@@ -70,7 +70,7 @@ Request new devices to be added to the library [here](https://github.com/andrew-
 |Airthings                                       |View Radon                                                            |        |            |6× AA                     |
 |Airthings AS                                    |Wave Plus                                                             |        |            |2× AA                     |
 |Airthings AS                                    |Wave Radon                                                            |        |            |2× AA                     |
-|AJ Co                                           |ABC1                                                                  |X1      |V2          |PP3                       |
+|AJ Co                                           |*ABC                                                                  |X1      |V2          |PP3                       |
 |AJ Co                                           |Dimmer                                                                |        |V4          |6× PP3                    |
 |AJ Co                                           |Dimmer                                                                |X5      |V2          |2× AA                     |
 |AJ Co                                           |XX1                                                                   |ABC     |V1          |PP3                       |
