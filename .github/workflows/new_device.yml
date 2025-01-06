@@ -120,8 +120,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BODY: >
-            Thanks for the contribution. We're auto-closing this issue. If it's a new device, a pull request will be created that will be reviewed and merged.
+            Thanks for the contribution. We're auto-closing this issue. If it's a new device, a pull request will be created that will be reviewed and merged.  
+
 
             If Battery Notes is useful to you please  
+
             
             [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/codechimp)
