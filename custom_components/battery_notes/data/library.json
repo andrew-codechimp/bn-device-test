@@ -3818,6 +3818,11 @@
             "battery_type": "CR2032"
         },
         {
+            "manufacturer": "XYZ",
+            "model": "ABC",
+            "battery_type": "AA"
+        },
+        {
             "manufacturer": "Yale",
             "model": "YRD210",
             "battery_type": "AA",
@@ -3911,11 +3916,6 @@
             "manufacturer": "Zooz",
             "model": "ZSE44",
             "battery_type": "CR2450"
-        },
-        {
-            "manufacturer": "XYZ",
-            "model": "ABC",
-            "battery_type": "AA"
         }
     ]
 }
