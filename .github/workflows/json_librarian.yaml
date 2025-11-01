@@ -24,6 +24,7 @@ jobs:
 
       - name: Update Library Files
         run: |
+          uv sync
           uv run .github/scripts/library_doc/update_library_files.py
 
       - name: Commit any changes
