@@ -22,6 +22,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
+      - name: Install build tools
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends build-essential
+
       - name: Update Library Files
         run: |
           uv run .github/scripts/library_doc/update_library_files.py
