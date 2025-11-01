@@ -24,7 +24,7 @@ jobs:
       - name: Install git
         run: |
           apt-get update
-          apt-get install -y --no-install-recommends git
+          apt-get install -y --no-install-recommends ca-certificates git
 
       - name: Checkout repository
         uses: actions/checkout@v5
