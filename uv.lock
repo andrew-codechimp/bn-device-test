@@ -771,13 +771,13 @@ wheels = [
 name = "ha-battery-notes"
 version = "0.0.0"
 source = { virtual = "." }
-
-[package.dev-dependencies]
-dev = [
+dependencies = [
     { name = "colorlog" },
     { name = "homeassistant" },
     { name = "ruff" },
 ]
+
+[package.dev-dependencies]
 docs = [
     { name = "mkdocs-material" },
 ]
@@ -786,13 +786,14 @@ library = [
 ]
 
 [package.metadata]
-
-[package.metadata.requires-dev]
-dev = [
+requires-dist = [
     { name = "colorlog" },
     { name = "homeassistant", specifier = "==2025.4.0" },
     { name = "ruff" },
 ]
+
+[package.metadata.requires-dev]
+dev = []
 docs = [{ name = "mkdocs-material" }]
 library = [{ name = "pytablewriter", specifier = "==0.61.0" }]
 
