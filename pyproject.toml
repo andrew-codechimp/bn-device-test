@@ -24,7 +24,7 @@ dev = [
     "colorlog",
     "homeassistant==2025.4.0",
     "ruff",
-    ]
+]
 
 docs = [
     "mkdocs-material",
