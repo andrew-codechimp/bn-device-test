@@ -16,19 +16,17 @@ classifiers = [
   "Programming Language :: Python :: 3",
 ]
 requires-python = "==3.13.2"
-dependencies = [    "colorlog",
-    "homeassistant==2025.4.0",
-    "ruff",]
+dependencies = [] # Use local_dev instead for development
 
-[project.urls]
-documentation = "https://github.com/andrew-codechimp/HA-Battery-Notes"
-homepage = "https://github.com/andrew-codechimp/HA-Battery-Notes"
-repository = "https://github.com/andrew-codechimp/HA-Battery-Notes"
-"Bug Tracker" = "https://github.com/andrew-codechimp/HA-Battery-Notes/issues"
-Changelog = "https://github.com/andrew-codechimp/HA-Battery-Notes/releases"
 
 [dependency-groups]
 dev = [] # Dont put anything here because dev group seems to get installed regardless of uv sync options
+local_dev = [    
+    "colorlog",
+    "homeassistant==2025.4.0",
+    "ruff",
+    ]
+
 docs = [
     "mkdocs-material",
 ]

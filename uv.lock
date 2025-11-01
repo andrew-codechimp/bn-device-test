@@ -771,11 +771,6 @@ wheels = [
 name = "ha-battery-notes"
 version = "0.0.0"
 source = { virtual = "." }
-dependencies = [
-    { name = "colorlog" },
-    { name = "homeassistant" },
-    { name = "ruff" },
-]
 
 [package.dev-dependencies]
 docs = [
@@ -784,18 +779,23 @@ docs = [
 library = [
     { name = "pytablewriter" },
 ]
-
-[package.metadata]
-requires-dist = [
+local-dev = [
     { name = "colorlog" },
-    { name = "homeassistant", specifier = "==2025.4.0" },
+    { name = "homeassistant" },
     { name = "ruff" },
 ]
+
+[package.metadata]
 
 [package.metadata.requires-dev]
 dev = []
 docs = [{ name = "mkdocs-material" }]
 library = [{ name = "pytablewriter", specifier = "==0.61.0" }]
+local-dev = [
+    { name = "colorlog" },
+    { name = "homeassistant", specifier = "==2025.4.0" },
+    { name = "ruff" },
+]
 
 [[package]]
 name = "ha-ffmpeg"
