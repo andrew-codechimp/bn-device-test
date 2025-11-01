@@ -24,6 +24,8 @@ jobs:
         uses: astral-sh/setup-uv@v7
 
       - name: Update Library Files
+        env:
+          UV_NO_SYNC_DEFAULT_GROUP: 1
         run: |
           uv sync --only-group library
           uv run .github/scripts/library_doc/update_library_files.py

@@ -34,7 +34,7 @@ library = [
 ]
 
 [tool.uv]
-default-groups = []
+# default-groups = []
 
 [tool.ruff]
 target-version = "py313"
