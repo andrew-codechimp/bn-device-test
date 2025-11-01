@@ -26,12 +26,12 @@ jobs:
           fetch-depth: 0
           clean: false
 
-      - run: git rev-parse HEAD
-      
-      - name: Install build tools
+      - name: Install git
         run: |
           apt-get update
           apt-get install -y --no-install-recommends git
+
+      - run: git rev-parse HEAD
 
       - name: Update Library Files
         run: |
