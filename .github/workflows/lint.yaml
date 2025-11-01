@@ -1,0 +1,37 @@
+name: Lint
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - '**.py' # Run if pushed commits include a change to a Python (.py) file.
+      - '.github/workflows/lint.yaml' # Run if pushed commits include a change to a github actions workflow file.
+      - '.pyproject.toml' # Run if project configuration file changes.
+  pull_request:
+    branches:
+      - "main"
+    paths:
+      - '**.py' # Run if pushed commits include a change to a Python (.py) file.
+      - '.github/workflows/lint.yaml' # Run if pushed commits include a change to a github actions workflow file.
+      - '.pyproject.toml' # Run if project configuration file changes.
+  workflow_dispatch:
+
+jobs:
+  ruff_check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Ruff Check
+        uses: astral-sh/ruff-action@v3
+        with:
+          args: check --output-format=github
+
+      #TODO: Temporary disable until V3
+      # - name: Ruff Format
+      #   uses: astral-sh/ruff-action@v3
+      #   with:
+      #     args: format --check --diff
