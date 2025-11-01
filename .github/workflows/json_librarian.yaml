@@ -29,7 +29,7 @@ jobs:
 
       - name: Update Library Files
         run: |
-          uv sync --only-group library
+          uv sync --only-group docs
           uv run .github/scripts/library_doc/update_library_files.py
 
       - name: Commit any changes
