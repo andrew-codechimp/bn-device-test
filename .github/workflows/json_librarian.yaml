@@ -14,7 +14,7 @@ jobs:
   librarian:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/astral-sh/uv:debian-slim
+      image: ghcr.io/astral-sh/uv:trixie-slim
     permissions:
       contents: write
       pull-requests: write
@@ -25,10 +25,11 @@ jobs:
       - name: Install build tools
         run: |
           apt-get update
-          apt-get install -y --no-install-recommends build-essential
+          apt-get install -y --no-install-recommends git
 
       - name: Update Library Files
         run: |
+          uv sync --group library
           uv run .github/scripts/library_doc/update_library_files.py
 
       - name: Commit any changes
