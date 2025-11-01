@@ -16,12 +16,11 @@ classifiers = [
   "Programming Language :: Python :: 3",
 ]
 requires-python = "==3.13.2"
-dependencies = [] # Use local_dev instead for development
+dependencies = [] # Use dev instead for development
 
 
 [dependency-groups]
-dev = [] # Dont put anything here because dev group seems to get installed regardless of uv sync options
-local_dev = [    
+dev = [    
     "colorlog",
     "homeassistant==2025.4.0",
     "ruff",

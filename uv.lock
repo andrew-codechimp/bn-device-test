@@ -773,29 +773,28 @@ version = "0.0.0"
 source = { virtual = "." }
 
 [package.dev-dependencies]
+dev = [
+    { name = "colorlog" },
+    { name = "homeassistant" },
+    { name = "ruff" },
+]
 docs = [
     { name = "mkdocs-material" },
 ]
 library = [
     { name = "pytablewriter" },
 ]
-local-dev = [
-    { name = "colorlog" },
-    { name = "homeassistant" },
-    { name = "ruff" },
-]
 
 [package.metadata]
 
 [package.metadata.requires-dev]
-dev = []
-docs = [{ name = "mkdocs-material" }]
-library = [{ name = "pytablewriter", specifier = "==0.61.0" }]
-local-dev = [
+dev = [
     { name = "colorlog" },
     { name = "homeassistant", specifier = "==2025.4.0" },
     { name = "ruff" },
 ]
+docs = [{ name = "mkdocs-material" }]
+library = [{ name = "pytablewriter", specifier = "==0.61.0" }]
 
 [[package]]
 name = "ha-ffmpeg"
