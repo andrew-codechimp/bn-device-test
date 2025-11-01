@@ -20,16 +20,17 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
-          clean: false
 
       - name: Install git
         run: |
           apt-get update
           apt-get install -y --no-install-recommends git
+
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          clean: false
 
       - run: git rev-parse HEAD
 
