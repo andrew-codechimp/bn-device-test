@@ -13,33 +13,20 @@ on:
 jobs:
   librarian:
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/astral-sh/uv:trixie-slim
     permissions:
       contents: write
       pull-requests: write
     steps:
-
-      - name: Install git
-        run: |
-          apt-get update
-          apt-get install -y --no-install-recommends ca-certificates git
-
       - name: Checkout repository
         uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
-          clean: false
 
-      - run: git rev-parse HEAD
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
 
       - name: Update Library Files
         run: |
           uv sync --only-group library
           uv run .github/scripts/library_doc/update_library_files.py
-
-      - name: Debug path
-        run: pwd && ls -la
 
       - name: Commit any changes
         uses: stefanzweifel/git-auto-commit-action@v7
