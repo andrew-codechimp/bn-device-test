@@ -27,7 +27,7 @@ jobs:
       - name: Update Library Files
         run: |
           uv sync --group library --no-default-groups --no-dev
-          uv run .github/scripts/library_doc/update_library_files.py
+          # uv run .github/scripts/library_doc/update_library_files.py
 
       - name: Commit any changes
         uses: stefanzweifel/git-auto-commit-action@v7
