@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/astral-sh/uv:trixie-slim
-      options: --user root
     permissions:
       contents: write
       pull-requests: write
