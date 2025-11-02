@@ -1,4 +1,4 @@
-## 1887 Devices in library
+## 1888 Devices in library
 
 This file is auto generated, do not modify
 
@@ -1427,6 +1427,7 @@ Request new devices to be added to the library [here](https://github.com/andrew-
 |Tedee                                           |Tedee GO                                                                                      |3× CR123A                 |                                   |                                      |
 |Tedee                                           |Tedee PRO                                                                                     |Rechargeable              |                                   |                                      |
 |Test 20251102-2                                 |AJ                                                                                            |PP3                       |                                   |                                      |
+|Test 20251102-3                                 |AJ                                                                                            |AA                        |                                   |                                      |
 |ThermoBeacon                                    |16                                                                                            |CR2477                    |                                   |                                      |
 |ThermoBeacon                                    |21                                                                                            |CR2477                    |                                   |                                      |
 |ThermoBeacon                                    |27                                                                                            |CR2477                    |                                   |                                      |
