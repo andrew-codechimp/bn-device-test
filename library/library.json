@@ -906,6 +906,11 @@
             "battery_type": "CR2032"
         },
         {
+            "manufacturer": "AJ Test 20251102",
+            "model": "Test Model",
+            "battery_type": "AA"
+        },
+        {
             "manufacturer": "Alarm.com",
             "model": "n/a",
             "battery_type": "CR123A"
@@ -10766,11 +10771,6 @@
             "manufacturer": "ZVIDAR",
             "model": "Z-CM-V01",
             "battery_type": "Rechargeable"
-        },
-        {
-            "manufacturer": "AJ Test 20251102",
-            "model": "Test Model",
-            "battery_type": "AA"
         }
     ]
 }
