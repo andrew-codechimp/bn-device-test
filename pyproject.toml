@@ -16,8 +16,14 @@ classifiers = [
   "Programming Language :: Python :: 3",
 ]
 requires-python = "==3.13.2"
-dependencies = [] # Use dev instead for development
+dependencies = [] # Use dev for all dependencies
 
+[project.urls]
+documentation = "https://github.com/andrew-codechimp/HA-Battery-Notes"
+homepage = "https://github.com/andrew-codechimp/HA-Battery-Notes"
+repository = "https://github.com/andrew-codechimp/HA-Battery-Notes"
+"Bug Tracker" = "https://github.com/andrew-codechimp/HA-Battery-Notes/issues"
+Changelog = "https://github.com/andrew-codechimp/HA-Battery-Notes/releases"
 
 [dependency-groups]
 dev = [    
@@ -35,7 +41,6 @@ library = [
 
 [tool.uv]
 default-groups = ["dev"]
-
 [tool.ruff]
 target-version = "py313"
 src = ["custom_components/battery_notes"]
