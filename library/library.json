@@ -8073,6 +8073,11 @@
             "battery_type": "Rechargeable"
         },
         {
+            "manufacturer": "Test 20251102-2",
+            "model": "AJ",
+            "battery_type": "PP3"
+        },
+        {
             "manufacturer": "ThermoBeacon",
             "model": "16",
             "battery_type": "CR2477"
@@ -10771,11 +10776,6 @@
             "manufacturer": "ZVIDAR",
             "model": "Z-CM-V01",
             "battery_type": "Rechargeable"
-        },
-        {
-            "manufacturer": "Test 20251102-2",
-            "model": "AJ",
-            "battery_type": "PP3"
         }
     ]
 }
