@@ -107,7 +107,7 @@ jobs:
         uses: peter-evans/create-pull-request@v7
         with:
           commit-message: "${{ env.TITLE_MODE }} device: ${{ env.MODEL }} by ${{ env.MANUFACTURER }}"
-          title: "Device: ${{ env.MANUFACTURER }} - ${{ env.MODEL }}"
+          title: "${{ env.TITLE_MODE }} device: ${{ env.MANUFACTURER }} - ${{ env.MODEL }}"
           body: |
             This pull request ${{ env.MODE }} the device information for:
             Manufacturer: ${{ env.MANUFACTURER }}
