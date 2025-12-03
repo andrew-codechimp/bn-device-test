@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Parse device data
         id: device-data
@@ -57,35 +57,43 @@ jobs:
             if new_device.get("battery_type", "").lower() == "rechargable":
               new_device["battery_type"] = "Rechargeable"
 
-            # Check for duplicates and replace old entry with new one
+            # Check for duplicates and replace old entry with new one, flagging manual entries
             duplicate_found = False
+            manual_found = False
             for i, device in enumerate(devices):
               if device["manufacturer"] == new_device["manufacturer"] and device["model"] == new_device["model"] and device.get("model_id", "") == new_device.get("model_id", "") and device.get("hw_version", "") == new_device.get("hw_version", ""):
+                if device["battery_type"].upper() == "MANUAL":
+                  manual_found = True
+                  break
                 devices[i] = new_device
                 duplicate_found = True
                 break
 
-            # If no duplicate found, add the new device to the JSON library file
-            if not duplicate_found:
-              devices.append(new_device)
-
-            # Save manufacturer and model for later use
-            set_env("BRANCH", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']} {new_device['model']} {new_device.get('model_id', '')} {new_device.get('hw_version', '')})".lower())))
-            set_env("MANUFACTURER", new_device['manufacturer'])
-            set_env("MODEL", new_device['model'])
-            set_env("MODEL_ID", new_device.get('model_id', ''))
-            set_env("HW_VERSION", new_device.get('hw_version', ''))
-            set_env("BQT", f"{numeric_quantity}x {new_device['battery_type']}")
-
-            if duplicate_found:
-              set_env("MODE", "updates")
-              set_env("TITLE_MODE", "Update")
+            # If a manual entry exists, do not add or update the entry
+            if manual_found:
+              set_env("MANUAL", "True")
             else:
-              set_env("MODE", "adds")
-              set_env("TITLE_MODE", "Add")
+              # If no duplicate found, add the new device to the JSON library file
+              if not duplicate_found:
+                devices.append(new_device)
 
-            with open("library/library.json", "w") as f:
-              f.write(json.dumps(devices_json, indent=4))
+              # Save manufacturer and model for later use
+              set_env("BRANCH", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']} {new_device['model']} {new_device.get('model_id', '')} {new_device.get('hw_version', '')})".lower())))
+              set_env("MANUFACTURER", new_device['manufacturer'])
+              set_env("MODEL", new_device['model'])
+              set_env("MODEL_ID", new_device.get('model_id', ''))
+              set_env("HW_VERSION", new_device.get('hw_version', ''))
+              set_env("BQT", f"{numeric_quantity}x {new_device['battery_type']}")
+
+              if duplicate_found:
+                set_env("MODE", "updates")
+                set_env("TITLE_MODE", "Update")
+              else:
+                set_env("MODE", "adds")
+                set_env("TITLE_MODE", "Add")
+
+              with open("library/library.json", "w") as f:
+                f.write(json.dumps(devices_json, indent=4))
 
       - name: Rename Issue
         run: |
@@ -99,12 +107,14 @@ jobs:
 
       - name: Validate JSON
         uses: docker://orrosenblatt/validate-json-action:latest
+        if: "${{ env.MANUAL != 'True' }}"
         env:
           INPUT_SCHEMA: library/schema.json
           INPUT_JSONS: library/library.json
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v7
+        if: "${{ env.MANUAL != 'True' }}"
         with:
           commit-message: "${{ env.TITLE_MODE }} device: ${{ env.MODEL }} by ${{ env.MANUFACTURER }}"
           title: "${{ env.TITLE_MODE }} device: ${{ env.MANUFACTURER }} - ${{ env.MODEL }}"
