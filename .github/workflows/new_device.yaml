@@ -69,29 +69,28 @@ jobs:
                 duplicate_found = True
                 break
 
-            # If a manual entry exists, do not add or update the entry
-            if manual_found:
-              set_env("MANUAL", "True")
+            # If no duplicate found and not currently manual, add the new device to the JSON library file
+            if not duplicate_found and not manual_found:
+              devices.append(new_device)
+
+            # Save manufacturer and model for later use
+            set_env("BRANCH", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']} {new_device['model']} {new_device.get('model_id', '')} {new_device.get('hw_version', '')})".lower())))
+            set_env("MANUFACTURER", new_device['manufacturer'])
+            set_env("MODEL", new_device['model'])
+            set_env("MODEL_ID", new_device.get('model_id', ''))
+            set_env("HW_VERSION", new_device.get('hw_version', ''))
+            set_env("BQT", f"{numeric_quantity}x {new_device['battery_type']}")
+
+            if duplicate_found:
+              set_env("MODE", "updates")
+              set_env("TITLE_MODE", "Update")
             else:
-              # If no duplicate found, add the new device to the JSON library file
-              if not duplicate_found:
-                devices.append(new_device)
+              set_env("MODE", "adds")
+              set_env("TITLE_MODE", "Add")
 
-              # Save manufacturer and model for later use
-              set_env("BRANCH", "_".join(re.findall(r"\w+",f"{new_device['manufacturer']} {new_device['model']} {new_device.get('model_id', '')} {new_device.get('hw_version', '')})".lower())))
-              set_env("MANUFACTURER", new_device['manufacturer'])
-              set_env("MODEL", new_device['model'])
-              set_env("MODEL_ID", new_device.get('model_id', ''))
-              set_env("HW_VERSION", new_device.get('hw_version', ''))
-              set_env("BQT", f"{numeric_quantity}x {new_device['battery_type']}")
+            set_env("MANUAL", manual_found)
 
-              if duplicate_found:
-                set_env("MODE", "updates")
-                set_env("TITLE_MODE", "Update")
-              else:
-                set_env("MODE", "adds")
-                set_env("TITLE_MODE", "Add")
-
+            if not manual_found:
               with open("library/library.json", "w") as f:
                 f.write(json.dumps(devices_json, indent=4))
 
