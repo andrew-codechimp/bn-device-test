@@ -88,7 +88,7 @@ jobs:
               set_env("MODE", "adds")
               set_env("TITLE_MODE", "Add")
 
-            set_env("MANUAL", manual_found)
+            set_env("MANUAL", str(manual_found))
 
             if not manual_found:
               with open("library/library.json", "w") as f:
