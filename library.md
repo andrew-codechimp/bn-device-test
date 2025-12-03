@@ -1,4 +1,4 @@
-## 1888 Devices in library
+## 1889 Devices in library
 
 This file is auto generated, do not modify
 
@@ -168,6 +168,7 @@ Request new devices to be added to the library [here](https://github.com/andrew-
 |Airthings AS                                    |Wave Plus                                                                                     |2× AA                     |                                   |                                      |
 |Airthings AS                                    |Wave Radon                                                                                    |2× AA                     |                                   |                                      |
 |Airzone                                         |thinkradio                                                                                    |CR2032                    |                                   |                                      |
+|AJ Test                                         |202512032                                                                                     |2× AA                     |                                   |                                      |
 |AJ Test 20251102                                |Test Model                                                                                    |AA                        |                                   |                                      |
 |Alarm.com                                       |n/a                                                                                           |CR123A                    |                                   |                                      |
 |Aldi                                            |MEGOS switch and dimming light remote control (141L100RC)                                     |CR2450                    |                                   |                                      |
