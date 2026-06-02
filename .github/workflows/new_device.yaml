@@ -120,7 +120,6 @@ jobs:
             Manufacturer: ${{ env.MANUFACTURER }}
             Model: ${{ env.MODEL }}
             Model ID: ${{ env.MODEL_ID }}
-            Hardware: ${{ env.HW_VERSION }}
             Battery: ${{ env.BQT }}
             It closes issue #${{ github.event.issue.number }}
 
