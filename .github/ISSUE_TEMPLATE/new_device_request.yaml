@@ -1,18 +1,23 @@
 name: New Device
 description: Submit a new device to the library so that others don't have to configure it themselves.
-title: "[Device]: "
+title: "[Device]:"
 labels: ["new-device"]
 body:
   - type: markdown
     attributes:
       value: |
-        The battery library is a JSON document at [custom_components/battery_notes/data/library.json](https://github.com/andrew-codechimp/HA-Battery-Notes/blob/main/custom_components/battery_notes/data/library.json)
+        The battery library is a JSON document at [library/library.json](https://github.com/andrew-codechimp/HA-Battery-Notes/blob/main/library/library.json)
         To contribute, submit your device details via this form and the relevant code changes will be proposed on your behalf.
-        Note: The title above is not used and can be just a friendly description of the device. Manufacturer and model should be exactly what is displayed on the Device screen within Home Assistant.
-        If your device has a Model ID or HW Version then these must be included.
+
+        If you add a device manually in Battery Notes you will be able to see the details required at the top of the battery details panel, which is also available in the configure panel for the device within the Battery Notes integration once you have added it.
         To see your devices, click here:
 
         [![Open your Home Assistant instance and show your devices.](https://my.home-assistant.io/badges/devices.svg)](https://my.home-assistant.io/redirect/devices/)
+
+        The title above is not used and will be updated automatically.
+        Manufacturer and Model should be exactly what is displayed when you add a device to Battery Notes manually, depending on the integration a Model ID may be shown in brackets at the end of the model on the device screen, ensure that this is entered separately.
+        If your device has a Model ID or HW Version then these must be included.
+        If your device has a blank Manufacturer or Model these cannot be added to the library, please don't try, but you can still add a battery note manually.
 
   - type: input
     id: manufacturer
@@ -27,7 +32,7 @@ body:
     id: model
     attributes:
       label: Model
-      description: The model should be exactly what is displayed on the Devices screen within Home Assistant.
+      description: The model should be exactly what is displayed on the devices screen within Home Assistant, the element in brackets is the Model ID and should not be included.
       placeholder: ex. Hue dimmer switch
     validations:
       required: true
@@ -36,17 +41,8 @@ body:
     id: model_id
     attributes:
       label: Model ID
-      description: If the device has a Model ID (on a separate line) in the Devices screen within Home Assistant it must be included.
+      description: If the device has a Model ID in the Devices screen, which is in brackets after the model, it must be included.
       placeholder: ex. 324131092621
-    validations:
-      required: false
-
-  - type: input
-    id: hw_version
-    attributes:
-      label: HW Version
-      description: If the device has a Hardware version shown in the Devices screen within Home Assistant it must be included.
-      placeholder: ex. V7.2
     validations:
       required: false
 
@@ -54,7 +50,7 @@ body:
     id: battery_type
     attributes:
       label: Battery Type
-      description: When specifying battery types please use the Most Common naming for general batteries and the IEC naming for battery cells according to [Wikipedia](https://en.wikipedia.org/wiki/List_of_battery_sizes).
+      description: When specifying battery types please use the Most Common naming for general batteries and the IEC naming for battery cells according to [Wikipedia](https://en.wikipedia.org/wiki/List_of_battery_sizes). If a device has a bespoke or internal rechargeable battery you should use Rechargeable.  Devices where the battery is not replaceable you should use Irreplaceable.
       placeholder: ex. CR2032
     validations:
       required: true
@@ -63,7 +59,7 @@ body:
     id: battery_quantity
     attributes:
       label: Battery Quantity
-      description: The battery_quantity attribute is numeric (no letters or special characters).
+      description: The battery quantity attribute is numeric (no letters or special characters).
       placeholder: ex. 1
     validations:
       required: true

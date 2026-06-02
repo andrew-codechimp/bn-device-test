@@ -22,7 +22,6 @@ def get_device_list() -> None:
             k.get("model_match_method", "").lower(),
             k["model"].lower(),
             k.get("model_id", "").lower(),
-            k.get("hw_version", "").lower(),
         )
     )
     with open("library/library.json", "w", encoding="UTF-8") as f:
@@ -58,7 +57,6 @@ def regenerate_device_list() -> None:
             model,
             battery_type_qty,
             device.get("model_id", ""),
-            device.get("hw_version", ""),
         ]
         rows.append(row)
 
@@ -68,14 +66,13 @@ def regenerate_device_list() -> None:
         "Model",
         "Battery Type",
         "Model ID (optional)",
-        "HW Version (optional)",
     ]
     writer.value_matrix = rows
 
     tables_output = [f"## {len(devices)} Devices in library\n\n"]
     tables_output.append("This file is auto generated, do not modify\n\n")
     tables_output.append(
-        "Request new devices to be added to the library [here](https://github.com/andrew-codechimp/HA-Battery-Notes/issues/new?template=new_device_request.yml&title=%5BDevice%5D%3A+)\n\n"
+        "Request new devices to be added to the library [here](https://github.com/andrew-codechimp/HA-Battery-Notes/issues/new?template=new_device_request.yaml&title=%5BDevice%5D%3A+)\n\n"
     )
     tables_output.append(writer.dumps())
 
