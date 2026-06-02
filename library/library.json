@@ -10787,6 +10787,13 @@
             "manufacturer": "ZVIDAR",
             "model": "Z-CM-V01",
             "battery_type": "Rechargeable"
+        },
+        {
+            "manufacturer": "AJ Test",
+            "model": "2026.2.1-2",
+            "model_id": "XYZ",
+            "battery_type": "PP3",
+            "battery_quantity": 2
         }
     ]
 }
