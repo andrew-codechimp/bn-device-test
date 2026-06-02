@@ -912,6 +912,11 @@
             "battery_quantity": 2
         },
         {
+            "manufacturer": "AJ Test",
+            "model": "AJ 2026.6.2-1",
+            "battery_type": "PP3"
+        },
+        {
             "manufacturer": "AJ Test 20251102",
             "model": "Test Model",
             "battery_type": "AA"
@@ -10787,11 +10792,6 @@
             "manufacturer": "ZVIDAR",
             "model": "Z-CM-V01",
             "battery_type": "Rechargeable"
-        },
-        {
-            "manufacturer": "AJ Test",
-            "model": "AJ 2026.6.2-1",
-            "battery_type": "PP3"
         }
     ]
 }
